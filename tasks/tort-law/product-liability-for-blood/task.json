@@ -1,0 +1,238 @@
+{
+  "task_id": "tort-law/product-liability-for-blood",
+  "jurisdiction": "NL",
+  "normative_language": "nl",
+  "task_horizon": "short",
+  "law_as_of": "2026-08-30",
+  "practice_area": {
+    "nl": "Aansprakelijkheidsrecht",
+    "en": "Tort law"
+  },
+  "title": {
+    "nl": "Productaansprakelijkheid bloed",
+    "en": "Product liability for blood"
+  },
+  "prompt": {
+    "nl": "Na de toediening van bloed is een patiënt besmet geraakt. In het dossier rijst de vraag of de bloedbank op grond van productaansprakelijkheid aansprakelijk kan worden gehouden.",
+    "en": "A patient became infected after receiving blood. The matter raises the question whether the blood bank can be held liable under product-liability law."
+  },
+  "criteria": [
+    {
+      "id": "S-001",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat bloed, nadat het van het menselijk lichaam is afgescheiden, als product geldt in de zin van het productaansprakelijkheidsrecht.",
+        "en": "PASS if the answer states that blood, once separated from the human body, qualifies as a product under product-liability law."
+      }
+    },
+    {
+      "id": "C-002",
+      "type": "citation",
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord art. 6:185 BW of art. 6:185 e.v. BW citeert als de toepasselijke bepaling voor productaansprakelijkheid.",
+        "en": "PASS if the answer cites Article 6:185 BW or Articles 6:185 et seq. BW as governing product liability."
+      },
+      "cited_authority": "art. 6:185 BW"
+    },
+    {
+      "id": "S-003",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord uitlegt dat art. 6:185 BW een regime van risicoaansprakelijkheid vestigt voor de producent van een gebrekkig product.",
+        "en": "PASS if the answer explains that Article 6:185 BW establishes strict liability for the producer of a defective product."
+      }
+    },
+    {
+      "id": "C-004",
+      "type": "citation",
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord art. 6:186 BW citeert als de bepaling waarin een gebrekkig product wordt omschreven.",
+        "en": "PASS if the answer cites Article 6:186 BW as the provision defining a defective product."
+      },
+      "cited_authority": "art. 6:186 BW"
+    },
+    {
+      "id": "S-005",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord uitlegt dat een product gebrekkig is wanneer het, alle omstandigheden in aanmerking genomen, niet de veiligheid biedt die men daarvan mag verwachten.",
+        "en": "PASS if the answer explains that a product is defective when, taking all circumstances into account, it does not provide the safety a person is entitled to expect."
+      }
+    },
+    {
+      "id": "S-006",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord de bloedbank aanmerkt als een partij die mogelijk als producent in de zin van het productaansprakelijkheidsrecht kwalificeert.",
+        "en": "PASS if the answer identifies the blood bank as potentially qualifying as a producer under the product-liability framework."
+      }
+    },
+    {
+      "id": "S-007",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord het vonnis van Rb. Amsterdam 3 februari 1999 citeert aan de hand van de ECLI (ECLI:NL:RBAMS:1999:AB8317), de NJ-vindplaats (NJ 1999/621) of de herkenbare zaaknaam (Hartman/Stichting Sanquin Bloedvoorziening).",
+        "en": "PASS if the answer cites the Amsterdam District Court judgment of 3 February 1999 by ECLI (ECLI:NL:RBAMS:1999:AB8317), NJ reference (NJ 1999/621), or the recognisable case name (Hartman/Stichting Sanquin Bloedvoorziening)."
+      }
+    },
+    {
+      "id": "S-008",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord inhoudelijk ingaat op het oordeel van de Rechtbank Amsterdam, bijvoorbeeld door te vermelden dat het de gebrekkigheid van een bloedproduct en/of het ontwikkelingsrisicoverweer bij met hiv besmet bloed betrof.",
+        "en": "PASS if the answer substantively discusses the Amsterdam District Court ruling, for example by noting that it addressed defectiveness of a blood product and/or the development-risk defence for HIV-contaminated blood."
+      }
+    },
+    {
+      "id": "C-009",
+      "type": "citation",
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord HR 28 januari 2005 citeert aan de hand van een van de volgende gegevens: de ECLI (ECLI:NL:HR:2005:AR6458), de datum 28 januari 2005, de zaaknaam (Sanquin-arrest), het zaaknummer C03/210HR of de GJ-vindplaats (GJ 2005/25).",
+        "en": "PASS if the answer cites HR 28 January 2005 by any one of the following: ECLI (ECLI:NL:HR:2005:AR6458), the date 28 January 2005, the case name (Sanquin-arrest), the docket number C03/210HR, or the GJ reference (GJ 2005/25)."
+      },
+      "cited_authority": "HR 28 januari 2005, ECLI:NL:HR:2005:AR6458 (Sanquin-arrest), zaaknr. C03/210HR, GJ 2005/25"
+    },
+    {
+      "id": "S-010",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord inhoudelijk ingaat op HR 28 januari 2005 in de context van aansprakelijkheid voor bloedproducten, bijvoorbeeld op de betekenis daarvan voor de maatstaf van gebrekkigheid of het ontwikkelingsrisicoverweer bij bloedproducten.",
+        "en": "PASS if the answer substantively discusses HR 28 January 2005 in the context of blood-product liability, for example its bearing on defectiveness or the development-risk defence."
+      }
+    },
+    {
+      "id": "C-011",
+      "type": "citation",
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord art. 6:185 lid 1 sub e BW citeert als grondslag voor het ontwikkelingsrisicoverweer.",
+        "en": "PASS if the answer cites Article 6:185(1)(e) BW as the development-risk defence."
+      },
+      "cited_authority": "art. 6:185 lid 1 sub e BW"
+    },
+    {
+      "id": "S-012",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord uitlegt dat de producent zich met het ontwikkelingsrisicoverweer aan aansprakelijkheid kan onttrekken indien het gebrek op grond van de stand van de wetenschappelijke en technische kennis op het tijdstip waarop het product in het verkeer werd gebracht niet kon worden ontdekt.",
+        "en": "PASS if the answer explains that the development-risk defence permits the producer to avoid liability where the defect could not be discovered in light of scientific and technical knowledge when the product entered circulation."
+      }
+    },
+    {
+      "id": "S-013",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord de Europese Richtlijn productaansprakelijkheid (Richtlijn 85/374/EEG) noemt als Europese bron van het Nederlandse productaansprakelijkheidsregime, of anderszins inhoudelijk ingaat op de Europese oorsprong van deze regels.",
+        "en": "PASS if the answer mentions the EU Product Liability Directive (Directive 85/374/EEC) as the European source underlying the Dutch regime, or otherwise substantively addresses the rules' European origin."
+      }
+    },
+    {
+      "id": "S-014",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat de veiligheidsverwachting voor bloedproducten wordt gemeten aan de verwachtingen van het grote publiek en niet uitsluitend aan die van professionele gebruikers, en daarbij het arrest HvJ EU Boston Scientific Medizintechnik 2015 noemt.",
+        "en": "PASS if the answer notes that the safety expected of blood products is measured by reference to the general public (het grote publiek) rather than professional users alone, and mentions CJEU Boston Scientific Medizintechnik 2015."
+      }
+    },
+    {
+      "id": "S-015",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord een conclusie bereikt die verenigbaar is met het uitgangspunt dat een bloedbank in beginsel op grond van productaansprakelijkheid (art. 6:185 e.v. BW) aansprakelijk kan zijn voor besmette bloedproducten.",
+        "en": "PASS if the answer reaches a conclusion compatible with a blood bank being liable in principle under product-liability law for contaminated blood products under Articles 6:185 et seq. BW."
+      }
+    },
+    {
+      "id": "S-016",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord het ontwikkelingsrisicoverweer onderkent als mogelijke beperking van de productaansprakelijkheid van een bloedbank voor besmette bloedproducten.",
+        "en": "PASS if the answer recognises the development-risk defence as a possible limitation on a blood bank's product liability for contaminated blood products."
+      }
+    },
+    {
+      "id": "F-019",
+      "type": "form",
+      "dimensions": [
+        "style",
+        "usability"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als de openingsalinea vóór de uitvoerige wettelijke en jurisprudentiële analyse beknopt de conclusie van het antwoord vermeldt over de vraag of de bloedbank productaansprakelijk kan zijn nadat besmet bloed is toegediend, met behoud van de in de analyse gebruikte voorbehouden.",
+        "en": "PASS if the opening paragraph concisely states the answer's conclusion on whether the blood bank may be liable in product liability after contaminated blood is administered before the detailed statutory and case-law analysis, preserving the qualifications used in the analysis."
+      }
+    },
+    {
+      "id": "F-020",
+      "type": "form",
+      "dimensions": [
+        "usability"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als de analyse gericht blijft op de gevraagde route van productaansprakelijkheid; andere mogelijke aansprakelijkheidsgrondslagen of achtergrondinformatie zijn duidelijk ondergeschikt en krijgen niet evenveel of meer aandacht dan die route.",
+        "en": "PASS if the analysis remains centred on the product-liability route asked about; other possible liability bases or background material are clearly secondary and do not receive equal or greater treatment."
+      }
+    }
+  ]
+}

@@ -1,0 +1,304 @@
+{
+  "task_id": "property-law/acquisition-of-a-stolen-movable",
+  "jurisdiction": "NL",
+  "normative_language": "nl",
+  "task_horizon": "short",
+  "law_as_of": "2026-08-30",
+  "practice_area": {
+    "nl": "Goederenrecht",
+    "en": "Property law"
+  },
+  "title": {
+    "nl": "Eigendomsverkrijging gestolen roerende zaak",
+    "en": "Acquisition of ownership of a stolen movable item"
+  },
+  "prompt": {
+    "nl": "Onze cliënt, Yilmaz, heeft op 6 juli 2019 een uniek herenhorloge van slangenhout gekocht van Harry, een handelaar in nieuwe en tweedehands houten herenhorloges. Zij spraken af dat Yilmaz het horloge op 19 juli 2019 zou ophalen. Tot die tijd bleef het horloge in de etalage van Harry liggen met een briefje “verkocht”.\n\nWe hebben inmiddels vernomen dat Harry het horloge in juni 2018 van Gaston heeft gestolen. Op 10 juli 2019 kwam Gaston de winkel binnen en stelde hij dat het horloge nog steeds zijn eigendom was.\n\nBeoordeel de positie van Yilmaz en of Gaston terecht stelt dat het horloge nog steeds van hem is.",
+    "en": "Our client, Yilmaz, purchased a unique snakewood men’s watch on 6 July 2019 from Harry, a dealer in new and second-hand wooden men’s watches. They agreed that Yilmaz would collect the watch on 19 July 2019. Until then, the watch remained in Harry’s display window with a “sold” notice attached.\n\nWe have since learned that Harry stole the watch from Gaston in June 2018. On 10 July 2019, Gaston entered the shop and asserted that the watch remained his property.\n\nPlease assess Yilmaz’s position and whether Gaston is correct that the watch still belongs to him."
+  },
+  "criteria": [
+    {
+      "id": "S-001",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord concludeert dat Gaston op 10 juli 2019 nog steeds eigenaar van het horloge is.",
+        "en": "PASS if the answer concludes that Gaston remains the owner of the watch on 10 July 2019."
+      }
+    },
+    {
+      "id": "S-002",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat Harry het horloge van Gaston heeft gestolen.",
+        "en": "PASS if the answer states that Harry stole the watch from Gaston."
+      }
+    },
+    {
+      "id": "S-015",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat Harry daarom niet beschikkingsbevoegd is om de eigendom over te dragen.",
+        "en": "PASS if the answer states that Harry therefore lacked authority to dispose of the watch and transfer ownership."
+      }
+    },
+    {
+      "id": "S-003",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord een geldige titel noemt als een van de vereisten voor overdracht binnen het toepasselijke kader.",
+        "en": "PASS if the answer identifies a valid legal basis as one requirement for transfer under the governing framework."
+      }
+    },
+    {
+      "id": "S-016",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord levering noemt als een van de vereisten voor overdracht binnen het toepasselijke kader.",
+        "en": "PASS if the answer identifies delivery as one requirement for transfer under the governing framework."
+      }
+    },
+    {
+      "id": "S-017",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord beschikkingsbevoegdheid noemt als een van de vereisten voor overdracht binnen het toepasselijke kader.",
+        "en": "PASS if the answer identifies authority to dispose as one requirement for transfer under the governing framework."
+      }
+    },
+    {
+      "id": "C-004",
+      "type": "citation",
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord art. 3:90 BW of art. 3:90 lid 1 BW citeert voor het leveringsvereiste bij roerende zaken.",
+        "en": "PASS if the answer cites Article 3:90 BW or Article 3:90(1) BW as the delivery requirement for movable property."
+      },
+      "cited_authority": "art. 3:90 BW"
+    },
+    {
+      "id": "S-005",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat levering van roerende zaken op grond van art. 3:90 BW bezitsverschaffing vereist.",
+        "en": "PASS if the answer states that delivery of movable property under Article 3:90 BW requires transfer of possession."
+      }
+    },
+    {
+      "id": "S-006",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord onderkent dat het ontbreken van fysieke afgifte niet op zichzelf betekent dat geen levering heeft plaatsgevonden en analyseert of de afspraak levering door constitutum possessorium op grond van art. 3:115 onder a BW tot stand bracht, waarbij Harry de feitelijke macht behield maar het horloge voor Yilmaz hield. Iedere gemotiveerde conclusie over de vraag of de vermelde feiten de vereiste tweezijdige houderschapsverhouding opleveren, is aanvaardbaar.",
+        "en": "PASS if the answer recognises that absence of physical handover does not by itself mean that no delivery occurred and analyses whether the agreement effected delivery by constitutum possessorium under Article 3:115(a) BW, with Harry retaining physical custody while holding the watch for Yilmaz. Either reasoned conclusion on whether the facts establish the required bilateral holding arrangement is acceptable."
+      }
+    },
+    {
+      "id": "S-007",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord uitlegt dat, zelfs indien de afspraak levering door constitutum possessorium tot stand bracht, die levering op grond van art. 3:90 lid 2 BW niet tegen Gaston als houder van het oudere eigendomsrecht werkt zolang het horloge zonder Gastons instemming in handen van Harry blijft.",
+        "en": "PASS if the answer explains that, even if the agreement effected delivery by constitutum possessorium, Article 3:90(2) BW makes that delivery ineffective against Gaston as holder of the older ownership right while the watch remains in Harry's hands without Gaston's consent."
+      }
+    },
+    {
+      "id": "C-008",
+      "type": "citation",
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord art. 3:115 onder a BW citeert als grondslag voor de analyse van levering door constitutum possessorium.",
+        "en": "PASS if the answer cites Article 3:115(a) BW as the basis for analysing delivery by constitutum possessorium."
+      },
+      "cited_authority": "art. 3:115 onder a BW"
+    },
+    {
+      "id": "C-021",
+      "type": "citation",
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord art. 3:90 lid 2 BW citeert voor de regel dat een levering waarbij de zaak in handen van de vervreemder blijft nog niet werkt tegen een derde met een ouder recht.",
+        "en": "PASS if the answer cites Article 3:90(2) BW for the rule that delivery leaving the object in the transferor's hands does not yet operate against a third party with an older right."
+      },
+      "cited_authority": "art. 3:90 lid 2 BW"
+    },
+    {
+      "id": "C-009",
+      "type": "citation",
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord art. 3:86 BW citeert als grondslag voor derdenbescherming bij verkrijging van een beschikkingsonbevoegde.",
+        "en": "PASS if the answer cites Article 3:86 BW as the basis for third-party protection when acquiring from a person lacking authority to dispose."
+      },
+      "cited_authority": "art. 3:86 BW"
+    },
+    {
+      "id": "S-010",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat derdenbescherming op grond van art. 3:86 BW goede trouw vereist op het tijdstip van de bezitsverschaffing.",
+        "en": "PASS if the answer states that third-party protection under Article 3:86 BW requires good faith at the time possession is transferred."
+      }
+    },
+    {
+      "id": "C-011",
+      "type": "citation",
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord art. 3:86 lid 3 BW citeert als uitzondering voor gestolen zaken.",
+        "en": "PASS if the answer cites Article 3:86(3) BW as the exception for stolen property."
+      },
+      "cited_authority": "art. 3:86 lid 3 BW"
+    },
+    {
+      "id": "S-012",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord de hoofdregel van art. 3:86 lid 3 BW vermeldt dat de eigenaar van een gestolen roerende zaak deze gedurende drie jaar na de diefstal kan opeisen, behoudens de wettelijke uitzonderingen, waaronder de kwalificerende consumentenkoop van art. 3:86 lid 3 onder a BW.",
+        "en": "PASS if the answer states the default rule under Article 3:86(3) BW that the owner of stolen movable property may reclaim it for three years after the theft, subject to statutory exceptions including the qualifying consumer purchase in Article 3:86(3)(a) BW."
+      }
+    },
+    {
+      "id": "S-020",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord onderkent dat Gastons aanspraak binnen drie jaar na de diefstal in juni 2018 valt, maar dat gegeven niet op zichzelf beslissend acht zonder art. 3:86 lid 3 onder a BW te betrekken; de eigendomsvraag op 10 juli 2019 kan in plaats daarvan via art. 3:90 lid 2 BW worden opgelost.",
+        "en": "PASS if the answer recognises that Gaston's claim falls within three years of the June 2018 theft but does not treat that fact alone as decisive without considering Article 3:86(3)(a) BW; the ownership question on 10 July 2019 can instead be resolved through Article 3:90(2) BW."
+      }
+    },
+    {
+      "id": "C-013",
+      "type": "citation",
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord art. 5:2 BW citeert of anderszins inhoudelijk ingaat op Gastons bevoegdheid om als eigenaar te revindiceren.",
+        "en": "PASS if the answer cites Article 5:2 BW or otherwise substantively discusses Gaston's power to recover the watch as owner."
+      },
+      "cited_authority": "art. 5:2 BW"
+    },
+    {
+      "id": "S-014",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat Gaston het horloge op 10 juli 2019 als eigenaar kan opeisen of revindiceren.",
+        "en": "PASS if the answer states that Gaston may reclaim the watch as owner on 10 July 2019."
+      }
+    },
+    {
+      "id": "S-024",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat Yilmaz mogelijk een vordering op Harry heeft wegens toerekenbare tekortkoming (art. 6:74 BW) en mogelijk uit onrechtmatige daad (art. 6:162 BW) in verband met de verkoop van het gestolen horloge.",
+        "en": "PASS if the answer states that Yilmaz may have a claim against Harry for breach of contract (Article 6:74 BW) and potentially in tort (Article 6:162 BW) in connection with the sale of the stolen watch."
+      }
+    },
+    {
+      "id": "S-025",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat de bescherming van art. 3:86 lid 3 sub a BW niet geldt wanneer de dief en de handelaar een en dezelfde persoon zijn, omdat de ratio van de winkeluitzondering (vertrouwen op rechtmatige handel in een winkel) dan volledig wegvalt, zodat de koper langs deze weg geen eigendom verkrijgt.",
+        "en": "PASS if the answer states that the protection afforded by Article 3:86(3)(a) BW does not apply where the thief and the trader are one and the same person, because the rationale of the shop exception (trust in lawful business conducted in a shop) falls away entirely when the trader is himself the thief, so the buyer cannot acquire title through that exception."
+      }
+    },
+    {
+      "id": "S-026",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord de koop op 6 juli onderscheidt van overdracht en levering en de koopovereenkomst niet op zichzelf als voldoende voor eigendomsoverdracht behandelt.",
+        "en": "PASS if the answer distinguishes the sale on 6 July from transfer and delivery and does not treat the sale agreement alone as sufficient to transfer ownership."
+      }
+    },
+    {
+      "id": "F-022",
+      "type": "form",
+      "dimensions": [
+        "style",
+        "usability"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als de openingsalinea vóór de uitvoerige analyse van koop, levering, diefstal, derdenbescherming en revindicatie de conclusie van het antwoord vermeldt over wie op 10 juli 2019 eigenaar van het horloge is.",
+        "en": "PASS if the opening paragraph states the answer's conclusion on who owns the watch on 10 July 2019 before the detailed analysis of the sale, delivery, theft, third-party protection and recovery by the owner."
+      }
+    },
+    {
+      "id": "F-023",
+      "type": "form",
+      "dimensions": [
+        "style",
+        "usability"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord de relevante gebeurtenissen en juridische stappen in een begrijpelijke chronologische volgorde presenteert, zodat de lezer het verloop van koop, eventuele levering, diefstal, derdenbescherming en revindicatie niet zelf hoeft te reconstrueren.",
+        "en": "PASS if the answer presents the relevant events and legal steps in an intelligible chronological sequence, so the reader need not reconstruct the course of the sale, any delivery, theft, third-party protection and recovery by the owner."
+      }
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "task_id": "insolvency-restructuring/director-liability-for-selective-payments",
+  "jurisdiction": "NL",
+  "normative_language": "nl",
+  "task_horizon": "short",
+  "law_as_of": "2026-08-30",
+  "practice_area": {
+    "nl": "Insolventierecht en herstructurering",
+    "en": "Insolvency & Restructuring"
+  },
+  "title": {
+    "nl": "Bestuurdersaansprakelijkheid bij selectieve betaling gelieerde vennootschappen",
+    "en": "Director liability for selective payments to affiliated companies"
+  },
+  "prompt": {
+    "nl": "Een schuldeiser is onbetaald gebleven nadat een vennootschap gelieerde vennootschappen selectief heeft betaald en uiteindelijk geen verhaal meer biedt. De schuldeiser wil weten onder welke omstandigheden de bestuurder daarvoor persoonlijk aansprakelijk kan worden gehouden.",
+    "en": "A creditor was left unpaid after a company selectively paid affiliated companies and ultimately had no assets available for recourse. The creditor wants to know under what circumstances the director may be held personally liable."
+  },
+  "criteria": [
+    {
+      "id": "S-001",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat voor persoonlijke aansprakelijkheid van een bestuurder jegens een schuldeiser van de vennootschap de maatstaf geldt of de bestuurder van zijn handelen of nalaten een ernstig persoonlijk verwijt kan worden gemaakt.",
+        "en": "PASS if the answer states that the standard for a director's personal liability toward a company creditor is whether the director can be seriously personally blamed for the conduct or omission."
+      }
+    },
+    {
+      "id": "C-002",
+      "type": "citation",
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord HR 12 april 2019 citeert aan de hand van ECLI:NL:HR:2019:576, de datum of een andere ondubbelzinnige verwijzing naar dit arrest.",
+        "en": "PASS if the answer cites HR 12 April 2019 by ECLI:NL:HR:2019:576, its date or another unambiguous identifying reference."
+      },
+      "cited_authority": "HR 12 april 2019"
+    },
+    {
+      "id": "S-003",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord, onder verwijzing naar HR 12 april 2019 (ECLI:NL:HR:2019:576), r.o. 3.5.2, of een gelijkwaardige rechtsregel, vermeldt dat de betaalautonomie van een bestuurder verder is beperkt wanneer betalingen aan gelieerde entiteiten worden gedaan en/of wanneer de vennootschap haar activiteiten staakt zonder voldoende middelen om alle schuldeisers te voldoen.",
+        "en": "PASS if, drawing on HR 12 April 2019 (ECLI:NL:HR:2019:576), para. 3.5.2, or equivalent doctrine, the answer states that a director's payment autonomy is more restricted when affiliated entities are paid and/or when the company is ceasing activities without enough funds to satisfy every creditor."
+      }
+    },
+    {
+      "id": "C-004",
+      "type": "citation",
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord ten minste een van de volgende arresten citeert: HR 5 september 2014 (ECLI:NL:HR:2014:2627, RCI/Kastrop), HR 8 december 2006 (ECLI:NL:HR:2006:AZ0758, Ontvanger/Roelofsen), HR 6 oktober 1989 (ECLI:NL:HR:1989:AB9521, Beklamel) of HR 30 maart 2018 (ECLI:NL:HR:2018:470), aan de hand van de ECLI, de datum, de zaaknaam of een andere ondubbelzinnige verwijzing.",
+        "en": "PASS if the answer cites at least one of HR 5 September 2014 (ECLI:NL:HR:2014:2627, RCI/Kastrop), HR 8 December 2006 (ECLI:NL:HR:2006:AZ0758, Ontvanger/Roelofsen), HR 6 October 1989 (ECLI:NL:HR:1989:AB9521, Beklamel) or HR 30 March 2018 (ECLI:NL:HR:2018:470), by ECLI, date, case name or another unambiguous identifying reference."
+      },
+      "cited_authority": "HR 5 september 2014, ECLI:NL:HR:2014:2627 (RCI/Kastrop); HR 8 december 2006, ECLI:NL:HR:2006:AZ0758 (Ontvanger/Roelofsen); HR 6 oktober 1989, ECLI:NL:HR:1989:AB9521 (Beklamel); HR 30 maart 2018, ECLI:NL:HR:2018:470"
+    },
+    {
+      "id": "S-005",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord HR 5 september 2014 (ECLI:NL:HR:2014:2627), r.o. 4.2, of een gelijkwaardige rechtsregel gebruikt als grondslag voor het algemene kader van persoonlijke bestuurdersaansprakelijkheid jegens schuldeisers van de vennootschap, waaronder dat een uitsluitend persoonlijk motief geen vereiste is voor aansprakelijkheid.",
+        "en": "PASS if the answer uses HR 5 September 2014 (ECLI:NL:HR:2014:2627), para. 4.2, or equivalent doctrine to ground the general framework for personal director liability toward company creditors, including that liability does not require a purely personal motive."
+      }
+    },
+    {
+      "id": "S-011",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord HR 5 september 2014 (ECLI:NL:HR:2014:2627), r.o. 4.2, HR 8 december 2006 (ECLI:NL:HR:2006:AZ0758, Ontvanger/Roelofsen) of een gelijkwaardige rechtsregel gebruikt als grondslag voor het algemene kader van persoonlijke bestuurdersaansprakelijkheid jegens schuldeisers van de vennootschap.",
+        "en": "PASS if the answer uses HR 5 September 2014 (ECLI:NL:HR:2014:2627), para. 4.2, HR 8 December 2006 (ECLI:NL:HR:2006:AZ0758, Ontvanger/Roelofsen) or equivalent doctrine to ground the general framework for personal director liability toward company creditors."
+      }
+    },
+    {
+      "id": "S-007",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord HR 30 maart 2018 (ECLI:NL:HR:2018:470), r.o. 3.2.2, of een gelijkwaardige rechtsregel aanhaalt voor de stelling dat een bestuurder die bewust een situatie bewerkstelligt waarin de vennootschap geen verhaal meer biedt aan een schuldeiser — in het bijzonder door gelieerde entiteiten selectief te voldoen — handelt op een wijze die een ernstig persoonlijk verwijt kan opleveren.",
+        "en": "PASS if the answer invokes HR 30 March 2018 (ECLI:NL:HR:2018:470), para. 3.2.2, or equivalent doctrine for the proposition that a director who deliberately creates a situation in which the company can no longer offer recourse to a creditor — particularly by selectively satisfying affiliated entities — acts in a way capable of constituting serious personal blame."
+      }
+    },
+    {
+      "id": "S-008",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord onderkent dat persoonlijke bestuurdersaansprakelijkheid wegens selectieve betaling een beoordeling vergt van meerdere factoren in hun context.",
+        "en": "PASS if the answer identifies that personal director liability for selective payment requires a multi-factor, context-dependent assessment."
+      }
+    },
+    {
+      "id": "S-012",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord ten minste drie van de volgende beslissende omstandigheden in onderlinge samenhang bespreekt: (i) bewust bewerkstelligen dat één schuldeiser onbetaald blijft terwijl gelieerden worden voldaan; (ii) de vennootschap biedt daardoor geen verhaal meer; (iii) de bestuurder beheerst een structuur waarmee hij zelf de betalingsvolgorde bepaalt; (iv) de bestuurder moest er ernstig rekening mee houden dat de schuldeiser een vordering had.",
+        "en": "PASS if the answer addresses at least three of these decisive circumstances in their mutual relationship: (i) deliberately arranging that one creditor remains unpaid while affiliates are paid; (ii) the company consequently offers no recourse; (iii) the director controls a structure through which the director determines payment priority; and (iv) the director had to take seriously into account that the creditor had a claim."
+      }
+    },
+    {
+      "id": "S-009",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt, of verenigbaar is met de regel, dat een geschil over de precieze hoogte van de vordering de bestuurder niet ontslaat van de plicht verhaal mogelijk te houden wanneer nagenoeg vaststaat dat een substantiële vordering bestaat, zoals overwogen in HR Air Holland 2014 (ECLI:NL:HR:2014:829), r.o. 3.4. Die vindplaats dient uitsluitend ter illustratie; het citeren daarvan is voor een PASS niet vereist.",
+        "en": "PASS if the answer states, or is consistent with the rule, that a dispute over the exact amount of the claim does not relieve the director of the duty to preserve recourse where the existence of a substantial claim is virtually certain (nagenoeg vaststaat), such as stated in HR Air Holland 2014 (ECLI:NL:HR:2014:829), para. 3.4. That authority is illustrative only and citing it is not required to pass."
+      }
+    },
+    {
+      "id": "S-010",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord een met de rechtsregel verenigbare conclusie bereikt: een bestuurder die structureel één schuldeiser onbetaald laat terwijl hij gelieerde entiteiten voldoet en een structuur in stand houdt waardoor geen verhaal overblijft, is persoonlijk aansprakelijk voor het volledige bedrag van de onbetaalde vordering.",
+        "en": "PASS if the answer reaches a conclusion consistent with the doctrinal outcome: a director who structurally leaves one creditor unpaid while satisfying affiliated entities and maintains a structure ensuring no recourse remains is personally liable for the full amount of the unpaid claim."
+      }
+    },
+    {
+      "id": "S-016",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat de persoonlijke aansprakelijkheid van de bestuurder voor de onbetaalde vordering zich onder deze omstandigheden mede uitstrekt tot de contractuele rente over die vordering.",
+        "en": "PASS if the answer states that the director's personal liability for the unpaid claim in these circumstances extends to the contractual interest on that claim."
+      }
+    },
+    {
+      "id": "F-014",
+      "type": "form",
+      "dimensions": [
+        "style",
+        "usability"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als de openingsalinea vóór de uitvoerige bespreking van de rechtspraak de omstandigheden noemt die het antwoord als bepalend behandelt voor persoonlijke bestuurdersaansprakelijkheid wanneer gelieerde entiteiten worden betaald, één schuldeiser bewust onbetaald blijft en de vennootschap zonder verhaalsmogelijkheden achterblijft.",
+        "en": "PASS if the opening paragraph states the circumstances the answer treats as controlling for personal director liability where affiliated entities are paid, one creditor is knowingly left unpaid and the company is left without recourse, before the detailed case-law discussion."
+      }
+    },
+    {
+      "id": "F-015",
+      "type": "form",
+      "dimensions": [
+        "style",
+        "usability"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als iedere aangehaalde uitspraak over bestuurdersaansprakelijkheid wordt gekoppeld aan de afzonderlijke stelling waarvoor zij wordt gebruikt, in plaats van meerdere uitspraken te presenteren in een ongedifferentieerd overzicht dat de lezer zelf moet ontwarren.",
+        "en": "PASS if each cited director-liability decision is linked to the distinct proposition for which it is relied on, rather than presenting multiple decisions in an undifferentiated case overview that the reader must reconcile."
+      }
+    }
+  ]
+}

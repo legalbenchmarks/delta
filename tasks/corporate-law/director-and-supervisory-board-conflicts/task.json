@@ -1,0 +1,224 @@
+{
+  "task_id": "corporate-law/director-and-supervisory-board-conflicts",
+  "jurisdiction": "NL",
+  "normative_language": "nl",
+  "task_horizon": "short",
+  "law_as_of": "2026-08-30",
+  "practice_area": {
+    "nl": "Ondernemingsrecht",
+    "en": "Corporate law"
+  },
+  "title": {
+    "nl": "Tegenstrijdig belang bij bestuurders en commissarissen",
+    "en": "Conflicts of interest involving directors and supervisory directors"
+  },
+  "prompt": {
+    "nl": "De bedrijfsjurist van een Nederlandse vennootschap moet beoordelen of een bestuurder of commissaris mag deelnemen aan de beraadslaging en besluitvorming over een aangelegenheid waarbij diens persoonlijke belangen mogelijk een rol spelen. Wanneer is sprake van een tegenstrijdig belang bij een bestuurder of commissaris van een NV of BV?",
+    "en": "The in-house lawyer for a Dutch company must assess whether a director or supervisory director may participate in deliberations and decision-making on a matter in which that person may have a personal interest. When does a conflict of interest exist for a director or supervisory director of a Dutch public or private limited company?"
+  },
+  "criteria": [
+    {
+      "id": "C-001",
+      "type": "citation",
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord art. 2:129 lid 6 BW of art. 2:129(6) BW citeert als grondslag voor de tegenstrijdig-belangregeling bij de NV.",
+        "en": "PASS if the answer cites Article 2:129(6) BW as the basis for the conflict-of-interest regime in an NV."
+      },
+      "cited_authority": "art. 2:129 lid 6 BW"
+    },
+    {
+      "id": "S-002",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat art. 2:129 lid 6 BW een bestuurder van een NV met een tegenstrijdig persoonlijk belang verbiedt deel te nemen aan de beraadslaging.",
+        "en": "PASS if the answer states that Article 2:129(6) BW prohibits an NV director with a conflicting personal interest from participating in deliberations."
+      }
+    },
+    {
+      "id": "S-015",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat art. 2:129 lid 6 BW een bestuurder van een NV met een tegenstrijdig persoonlijk belang verbiedt deel te nemen aan de besluitvorming.",
+        "en": "PASS if the answer states that Article 2:129(6) BW prohibits an NV director with a conflicting personal interest from participating in decision-making."
+      }
+    },
+    {
+      "id": "C-003",
+      "type": "citation",
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord art. 2:239 lid 6 BW of art. 2:239(6) BW citeert als parallelle grondslag voor de BV.",
+        "en": "PASS if the answer cites Article 2:239(6) BW as the parallel basis for a BV."
+      },
+      "cited_authority": "art. 2:239 lid 6 BW"
+    },
+    {
+      "id": "S-004",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat art. 2:239 lid 6 BW voor de BV een onthoudings- of non-participatieplicht bevat voor bestuurders met een tegenstrijdig belang, hetzij rechtstreeks, hetzij in een gezamenlijke formulering naast art. 2:129 lid 6 BW voor de NV.",
+        "en": "PASS if the answer states that Article 2:239(6) BW imposes a non-participation or abstention duty on BV directors with a conflicting interest, whether stated directly or through a parallel formulation alongside Article 2:129(6) BW for an NV."
+      }
+    },
+    {
+      "id": "C-005",
+      "type": "citation",
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord art. 2:15 lid 1 onder a BW of art. 2:15(1)(a) BW citeert in verband met de sanctie op schending van de tegenstrijdig-belangregeling.",
+        "en": "PASS if the answer cites Article 2:15(1)(a) BW in connection with the consequence of breaching the conflict-of-interest regime."
+      },
+      "cited_authority": "art. 2:15 lid 1 onder a BW"
+    },
+    {
+      "id": "S-006",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat een besluit dat in strijd met de tegenstrijdig-belangregeling is genomen vernietigbaar is wegens strijd met wettelijke bepalingen die de totstandkoming van besluiten regelen.",
+        "en": "PASS if the answer states that a resolution adopted in breach of the conflict-of-interest regime is voidable because it conflicts with statutory provisions governing the formation of resolutions."
+      }
+    },
+    {
+      "id": "S-007",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat het kan gaan om een direct of indirect persoonlijk belang van de bestuurder of commissaris.",
+        "en": "PASS if the answer states that the director's or supervisory director's personal interest may be direct or indirect."
+      }
+    },
+    {
+      "id": "S-008",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat het persoonlijke belang tegenstrijdig moet zijn met het belang van de vennootschap en de met haar verbonden onderneming, op grond van art. 2:239 lid 6 BW (BV) en art. 2:129 lid 6 BW (NV).",
+        "en": "PASS if the answer states that the personal interest must conflict with the interests of the company and its affiliated enterprise, under Article 2:239(6) BW (BV) and Article 2:129(6) BW (NV)."
+      }
+    },
+    {
+      "id": "S-010",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat wanneer door een tegenstrijdig belang geen bestuursbesluit kan worden genomen, de raad van commissarissen het besluit neemt, op grond van art. 2:239 lid 6 BW (BV) en art. 2:129 lid 6 BW (NV).",
+        "en": "PASS if the answer states that, where a conflict of interest prevents the management board from adopting a resolution, the supervisory board adopts it, under Article 2:239(6) BW (BV) and Article 2:129(6) BW (NV)."
+      }
+    },
+    {
+      "id": "S-011",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat wanneer ook een raad van commissarissen ontbreekt of alle commissarissen een tegenstrijdig belang hebben, de algemene vergadering het besluit neemt, op grond van art. 2:239 lid 6 BW (BV) en art. 2:129 lid 6 BW (NV).",
+        "en": "PASS if the answer states that, where there is also no supervisory board or every supervisory director has a conflicting interest, the general meeting adopts the resolution, under Article 2:239(6) BW (BV) and Article 2:129(6) BW (NV)."
+      }
+    },
+    {
+      "id": "S-012",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat voor commissarissen bij een persoonlijk tegenstrijdig belang een parallelle onthoudingsplicht geldt, al dan niet onder verwijzing naar art. 2:140 of 2:250 lid 5 BW.",
+        "en": "PASS if the answer states that a parallel abstention duty applies to supervisory directors with a conflicting personal interest, whether or not it refers to Articles 2:140 or 2:250(5) BW."
+      }
+    },
+    {
+      "id": "S-013",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord de maatstaf formuleert dat de bestuurder of commissaris te maken heeft met zodanig onverenigbare belangen dat in redelijkheid kan worden betwijfeld of hij zich bij zijn handelen uitsluitend heeft laten leiden door het belang van de vennootschap en de daaraan verbonden onderneming (vgl. HR 29 juni 2007, ECLI:NL:HR:2007:BA0033, Bruil/Kombex, r.o. 3.4).",
+        "en": "PASS if the answer formulates the standard that the director or supervisory director faces interests so incompatible that it may reasonably be doubted whether the person was guided solely by the interests of the company and its affiliated enterprise (cf. HR 29 June 2007, ECLI:NL:HR:2007:BA0033, Bruil/Kombex, para. 3.4)."
+      }
+    },
+    {
+      "id": "S-014",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord concludeert dat de vraag of een tegenstrijdig belang aanwezig is, afhangt van alle omstandigheden van het geval (vgl. HR 29 juni 2007, ECLI:NL:HR:2007:BA0033, Bruil/Kombex, r.o. 3.4).",
+        "en": "PASS if the answer reaches the conclusion that whether a conflict of interest exists depends on all circumstances of the case (cf. HR 29 June 2007, ECLI:NL:HR:2007:BA0033, Bruil/Kombex, para. 3.4)."
+      }
+    },
+    {
+      "id": "S-016",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord concludeert dat een niet-parallel persoonlijk belang op zichzelf niet automatisch een tegenstrijdig belang oplevert, overeenkomstig HR Bruil/Kombex.",
+        "en": "PASS if the answer concludes that a non-parallel personal interest does not by itself automatically constitute a conflict of interest, in accordance with Bruil/Kombex."
+      }
+    },
+    {
+      "id": "F-017",
+      "type": "form",
+      "dimensions": [
+        "style",
+        "usability"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het openingsgedeelte de door het antwoord gehanteerde maatstaf voor een tegenstrijdig belang vermeldt vóór de uitvoerige bespreking van gevolgen, uitzonderingen en rechtspraak.",
+        "en": "PASS if the opening section states the conflict-of-interest test used by the answer before the detailed discussion of consequences, exceptions and case law."
+      }
+    },
+    {
+      "id": "F-018",
+      "type": "form",
+      "dimensions": [
+        "style",
+        "usability"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord de behandeling van bestuurders en commissarissen en, waar relevant, de posities bij de BV en NV afzonderlijk herkenbaar houdt, zodat de lezer de regel en het gevolg voor iedere rol kan terugvinden zonder deze uit één ongedifferentieerde bespreking te reconstrueren.",
+        "en": "PASS if the answer keeps the treatment of directors and supervisory directors and, where relevant, the BV and NV positions separately identifiable, so the reader can locate the rule and consequence for each role without reconstructing them from one undifferentiated discussion."
+      }
+    }
+  ]
+}

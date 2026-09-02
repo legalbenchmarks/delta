@@ -1,0 +1,234 @@
+{
+  "task_id": "competition-law/acm-concentration-notification-requirement",
+  "jurisdiction": "NL",
+  "normative_language": "nl",
+  "task_horizon": "short",
+  "law_as_of": "2026-08-30",
+  "practice_area": {
+    "nl": "Mededingingsrecht",
+    "en": "Competition law"
+  },
+  "title": {
+    "nl": "Meldingsplicht concentraties bij de ACM",
+    "en": "Notification requirement for concentrations to the ACM"
+  },
+  "prompt": {
+    "nl": "De juridische afdeling van een onderneming beoordeelt een voorgenomen bedrijfsovername en moet vaststellen of de transactie bij de ACM moet worden gemeld. Wanneer geldt de meldingsplicht?",
+    "en": "A company’s legal team is reviewing a proposed acquisition and must determine whether the transaction must be notified to the Netherlands Authority for Consumers and Markets (ACM). When does the notification requirement apply?"
+  },
+  "criteria": [
+    {
+      "id": "C-001",
+      "type": "citation",
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord art. 29 Mededingingswet (Mw) met artikelnummer citeert als grondslag voor de meldingsplicht.",
+        "en": "PASS if the answer cites Article 29 of the Competition Act (Mededingingswet or Mw) by article number as the basis for the notification requirement."
+      },
+      "cited_authority": "art. 29 Mededingingswet (Mw)"
+    },
+    {
+      "id": "S-002",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat de gezamenlijke wereldwijde omzet van de betrokken ondernemingen meer dan € 150 miljoen moet bedragen.",
+        "en": "PASS if the answer states that the combined worldwide turnover of the undertakings concerned must exceed € 150 million."
+      }
+    },
+    {
+      "id": "S-003",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat ten minste twee van de betrokken ondernemingen ieder ten minste € 30 miljoen omzet in Nederland moeten behalen.",
+        "en": "PASS if the answer states that at least two of the undertakings concerned must each achieve at least € 30 million in turnover in the Netherlands."
+      }
+    },
+    {
+      "id": "S-004",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord duidelijk maakt dat beide drempels, wereldwijd en nationaal, cumulatief moeten zijn vervuld en de meldingsplicht alleen ontstaat wanneer aan beide voorwaarden is voldaan.",
+        "en": "PASS if the answer makes clear that the worldwide and national thresholds are cumulative and notification is required only if both conditions are met."
+      }
+    },
+    {
+      "id": "S-005",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord de Autoriteit Consument & Markt (ACM) aanwijst als de autoriteit waarbij de concentratie moet worden gemeld.",
+        "en": "PASS if the answer identifies the Netherlands Authority for Consumers and Markets (ACM) as the authority to which the concentration must be notified."
+      }
+    },
+    {
+      "id": "C-006",
+      "type": "citation",
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord art. 27 Mw met artikelnummer citeert in de context van de definitie van een concentratie.",
+        "en": "PASS if the answer cites Article 27 Mw by article number in connection with the definition of a concentration."
+      },
+      "cited_authority": "art. 27 Mw"
+    },
+    {
+      "id": "S-007",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord inhoudelijk uitlegt dat het begrip concentratie onder meer fusies omvat.",
+        "en": "PASS if the answer substantively explains that the definition of a concentration includes mergers."
+      }
+    },
+    {
+      "id": "S-014",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord inhoudelijk uitlegt dat het begrip concentratie onder meer verwervingen van zeggenschap omvat.",
+        "en": "PASS if the answer substantively explains that the definition of a concentration includes acquisitions of control."
+      }
+    },
+    {
+      "id": "S-015",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord inhoudelijk uitlegt dat het begrip concentratie onder meer de oprichting omvat van een volwaardige gemeenschappelijke onderneming die zelfstandig en duurzaam op de markt actief is.",
+        "en": "PASS if the answer substantively explains that the concept of a concentration includes, among other things, the formation of a full-function joint venture that operates on the market independently and on a lasting basis."
+      }
+    },
+    {
+      "id": "S-008",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat de concentratie moet worden gemeld voordat zij tot stand wordt gebracht, dus vóór closing.",
+        "en": "PASS if the answer states that notification must occur before the concentration is implemented, meaning before closing."
+      }
+    },
+    {
+      "id": "S-009",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord uitlegt dat uitvoering van de concentratie verboden is voordat de wachttijd is verstreken of de ACM goedkeuring heeft verleend, de standstill-verplichting.",
+        "en": "PASS if the answer explains that implementing the concentration is prohibited until the waiting period has expired or the ACM has given approval, the standstill obligation."
+      }
+    },
+    {
+      "id": "C-010",
+      "type": "citation",
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord art. 30 Mw met artikelnummer citeert in de context van omzetberekening.",
+        "en": "PASS if the answer cites Article 30 Mw by article number in connection with turnover calculation."
+      },
+      "cited_authority": "art. 30 Mw"
+    },
+    {
+      "id": "S-011",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord inhoudelijk bespreekt dat art. 30 Mw nadere regels bevat voor de berekening van omzet, of anderszins ingaat op het bestaan van specifieke voorschriften voor omzetberekening.",
+        "en": "PASS if the answer substantively addresses that Article 30 Mw contains detailed turnover-calculation rules, or otherwise discusses the existence of specific turnover-calculation requirements."
+      }
+    },
+    {
+      "id": "S-012",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat sectorspecifieke berekeningsvoorschriften bestaan, bijvoorbeeld voor financiële instellingen of verzekeraars.",
+        "en": "PASS if the answer mentions sector-specific calculation rules, for example for financial institutions or insurers."
+      }
+    },
+    {
+      "id": "S-013",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord concludeert dat een bedrijfsovername bij de ACM moet worden gemeld wanneer sprake is van (i) een concentratie die (ii) de drempelbedragen van artikel 29 Mededingingswet overstijgt.",
+        "en": "PASS if the answer reaches the conclusion that a company acquisition must be notified to the ACM where there is (i) a concentration that (ii) exceeds the threshold amounts of Article 29 of the Dutch Competition Act (Mededingingswet)."
+      }
+    },
+    {
+      "id": "S-016",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord concludeert dat partijen vóór closing moeten beoordelen of de wettelijke omzetdrempels voor melding van de bedrijfsovername bij de ACM worden overschreden.",
+        "en": "PASS if the answer concludes that the parties must assess before closing whether the statutory turnover thresholds for notifying the acquisition to the ACM are exceeded."
+      }
+    },
+    {
+      "id": "F-017",
+      "type": "form",
+      "dimensions": [
+        "style",
+        "usability"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als de openingsalinea vóór de uitvoerige uitleg van soorten concentraties, omzetberekening en timing de conclusie van het antwoord over de meldingsplicht vermeldt, samen met de voorwaarden die het antwoord daarvoor als beslissend behandelt.",
+        "en": "PASS if the opening paragraph states the answer's conclusion on notification, together with the conditions the answer treats as decisive, before the detailed explanation of concentration types, turnover calculation and timing."
+      }
+    },
+    {
+      "id": "F-018",
+      "type": "form",
+      "dimensions": [
+        "usability"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als de meldingsvoorwaarden en omzetdrempels de hoofdfocus blijven; sancties, handhavingsgevolgen of de bredere concentratiecontroleprocedure mogen slechts kort en duidelijk ondergeschikt aan de meldingsvraag worden behandeld.",
+        "en": "PASS if notification conditions and turnover thresholds remain the primary focus; sanctions, enforcement consequences or the broader merger-control procedure may be included only briefly and clearly as secondary to the notification question."
+      }
+    }
+  ]
+}

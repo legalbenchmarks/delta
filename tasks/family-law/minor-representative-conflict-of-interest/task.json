@@ -1,0 +1,153 @@
+{
+  "task_id": "family-law/minor-representative-conflict-of-interest",
+  "jurisdiction": "NL",
+  "normative_language": "nl",
+  "task_horizon": "short",
+  "law_as_of": "2026-08-30",
+  "practice_area": {
+    "nl": "Personen- en familierecht",
+    "en": "Family law"
+  },
+  "title": {
+    "nl": "Tegenstrijdig belang wettelijk vertegenwoordiger bij wijziging overeenkomst",
+    "en": "Conflict of interest of a minor's legal representative when amending an agreement"
+  },
+  "prompt": {
+    "nl": "Een nadelige wijziging van een overeenkomst zou een minderjarige binden. De wettelijk vertegenwoordiger van de minderjarige handelde daarbij ook in een andere hoedanigheid, bijvoorbeeld als bestuurder of aandeelhouder van een vennootschap, en had een belang dat tegenstrijdig was aan dat van de minderjarige. Mag worden aangenomen dat de vertegenwoordiger tevens als wettelijk vertegenwoordiger optrad en de minderjarige aan de wijziging bond?",
+    "en": "A disadvantageous amendment of an agreement is said to bind a minor. The minor's legal representative also acted in another capacity, such as director or shareholder of a company, and had an interest conflicting with the minor's. May it be assumed that the representative was also acting as the minor's legal representative and thereby bound the minor to the amendment?"
+  },
+  "criteria": [
+    {
+      "id": "S-001",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord de toepasselijke maatstaf aanduidt als het beginsel van conformerende uitleg: bij gebreke van duidelijke aanwijzingen voor het tegendeel mag niet worden aangenomen dat een wettelijk vertegenwoordiger heeft gedaan wat hij niet behoorde te doen, namelijk tegelijk als wettelijk vertegenwoordiger en in een daarmee conflicterende andere hoedanigheid handelen.",
+        "en": "PASS if the answer identifies the applicable standard as conforming interpretation (conformerende uitleg): absent clear indications to the contrary, it should not be assumed that a legal representative did what they ought not to have done, namely act as the minor's legal representative while simultaneously acting in a conflicting official capacity."
+      }
+    },
+    {
+      "id": "S-002",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord de drempel 'geen duidelijke aanwijzingen van het tegendeel' op de feiten toepast en concludeert dat zulke aanwijzingen voor vertegenwoordiging in een dubbele hoedanigheid ontbraken.",
+        "en": "PASS if the answer applies the threshold of 'no clear indications to the contrary' to the facts and concludes that such indications of dual-capacity representation were absent."
+      }
+    },
+    {
+      "id": "S-003",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat wanneer een wettelijk vertegenwoordiger een evident tegenstrijdig belang heeft met dat van de minderjarige, benoeming van een bijzonder curator op grond van art. 1:250 BW de wettelijk voorgeschreven route is, in plaats van vertegenwoordiging door de conflicterende vertegenwoordiger zelf.",
+        "en": "PASS if the answer states that, where a legal representative has an interest evidently conflicting with the minor's, the legally prescribed route is appointment of a special guardian under Article 1:250 BW rather than representation by the conflicted representative."
+      }
+    },
+    {
+      "id": "S-011",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord de regel dat een wettelijk vertegenwoordiger met een evident tegenstrijdig belang op grond van art. 1:250 BW door een bijzonder curator behoort te worden vervangen, gebruikt ter ondersteuning van de uitlegconclusie dat vertegenwoordiging in een dubbele hoedanigheid niet mag worden aangenomen.",
+        "en": "PASS if the answer uses the rule that an evidently conflicted legal representative should be replaced by a special guardian under Article 1:250 BW to support the interpretive conclusion that dual-capacity representation should not be assumed."
+      }
+    },
+    {
+      "id": "C-005",
+      "type": "citation",
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord art. 1:250 lid 1 BW (bijzonder curator) citeert als toepasselijke wettelijke bepaling, hetzij als grondslag voor de voorgeschreven procedure bij een belangenconflict, hetzij ter ondersteuning van de uitlegnorm.",
+        "en": "PASS if the answer cites Article 1:250(1) BW on the special guardian as an applicable provision, either as the basis for the prescribed procedure in a conflict of interest or as support for the interpretive norm."
+      },
+      "cited_authority": "art. 1:250 lid 1 BW"
+    },
+    {
+      "id": "C-006",
+      "type": "citation",
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord art. 3:32 lid 2 BW citeert in verband met de rechtsgevolgen van een rechtshandeling die zonder behoorlijke bevoegdheid namens een minderjarige is verricht, waaronder handelingsonbekwaamheid of vernietigbaarheid van zulke rechtshandelingen.",
+        "en": "PASS if the answer cites Article 3:32(2) BW in connection with the legal consequences of an act performed on behalf of a minor without proper authority, including incapacity or voidability of such acts."
+      },
+      "cited_authority": "art. 3:32 lid 2 BW"
+    },
+    {
+      "id": "C-007",
+      "type": "citation",
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord HR 31 oktober 1934 (ECLI:NL:HR:1934:322, NJ 1934, p. 1675) citeert of deze uitspraak anderszins aanduidt als grondslag of illustratie van de vernietigbaarheid van een namens een minderjarige verrichte handeling zonder toereikende vertegenwoordigingsbevoegdheid.",
+        "en": "PASS if the answer cites HR 31 October 1934 (ECLI:NL:HR:1934:322, NJ 1934, p. 1675) or otherwise identifies that authority as establishing or illustrating the voidability of an act performed on behalf of a minor without proper authority."
+      },
+      "cited_authority": "HR 31 oktober 1934, ECLI:NL:HR:1934:322, NJ 1934, p. 1675"
+    },
+    {
+      "id": "S-008",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord onderkent dat het evidente belangenconflict tussen de andere rol van de vertegenwoordiger, bijvoorbeeld als bestuurder of aandeelhouder, en het belang van de minderjarige op zichzelf een doorslaggevende factor is die pleit tegen impliciete vertegenwoordiging in een dubbele hoedanigheid; facultatief mag het antwoord opmerken dat een eigenbelang, zoals belastingbesparing, deze conclusie verder versterkt.",
+        "en": "PASS if the answer recognises that the evident conflict between the representative's other role, for example as director or shareholder, and the minor's interest is itself a decisive factor against implicit dual-capacity representation; it may additionally note that a self-serving motive, such as tax savings, reinforces that conclusion."
+      }
+    },
+    {
+      "id": "S-009",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord, voor zover het een argument over dynamische uitleg behandelt, juist vermeldt dat dynamische uitleg geen zelfstandige maatstaf is maar een toepassing van de gewone uitlegmaatstaf op gewijzigde omstandigheden.",
+        "en": "PASS if, when addressing a dynamic-interpretation argument, the answer correctly notes that dynamic interpretation is not an independent standard but an application of the ordinary interpretation standard to changing circumstances."
+      }
+    },
+    {
+      "id": "S-013",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord overal één consistente formulering van de rechtspositie van de minderjarige gebruikt: indien het concludeert dat de minderjarige niet gebonden is, onderscheidt het die conclusie van een bespreking van vernietigbaarheid, toerekening, schijn van volmacht of een uitdrukkelijke rechtshandeling namens de minderjarige, in plaats van deze als onverzoende alternatieve eindconclusies te presenteren.",
+        "en": "PASS if the answer uses one consistent formulation of the minor's legal position throughout: if it concludes that the minor is not bound, it distinguishes that conclusion from any discussion of voidability, attribution, apparent authority or an express act on the minor's behalf instead of presenting those matters as unreconciled alternative bottom lines."
+      }
+    },
+    {
+      "id": "F-014",
+      "type": "form",
+      "dimensions": [
+        "style",
+        "usability"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als de openingsalinea, vóór de uitvoerige bespreking van vertegenwoordiging, toerekening, schijn van volmacht of instemming, beknopt de conclusie van het antwoord vermeldt over de vraag of het handelen van de vertegenwoordiger in een andere hoedanigheid ook de minderjarige bond, met behoud van de in de analyse gebruikte voorbehouden.",
+        "en": "PASS if the opening paragraph concisely states the answer's conclusion on whether conduct by the representative in another capacity also bound the minor, preserving any qualifications used in the analysis, before the detailed discussion of representation, attribution, apparent authority or consent."
+      }
+    }
+  ]
+}

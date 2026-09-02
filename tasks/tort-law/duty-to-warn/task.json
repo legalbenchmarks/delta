@@ -1,0 +1,195 @@
+{
+  "task_id": "tort-law/duty-to-warn",
+  "jurisdiction": "NL",
+  "normative_language": "nl",
+  "task_horizon": "short",
+  "law_as_of": "2026-08-30",
+  "practice_area": {
+    "nl": "Aansprakelijkheidsrecht",
+    "en": "Tort law"
+  },
+  "title": {
+    "nl": "Waarschuwingsplicht bij onrechtmatige daad",
+    "en": "Duty to warn in tort law"
+  },
+  "prompt": {
+    "nl": "Voor een lopende aansprakelijkheidszaak moet worden onderzocht wanneer een waarschuwing kan worden beschouwd als een afdoende maatregel ter bescherming tegen een bepaald gevaar in het kader van een onrechtmatige daad. Welke uitspraak van de Hoge Raad geldt hiervoor als de eerste en belangrijkste uitspraak?",
+    "en": "A pending liability matter requires research into when a warning can be considered an adequate measure to protect against a particular danger in the context of a tort claim. Which Supreme Court decision is regarded as the first and leading authority on this issue?"
+  },
+  "criteria": [
+    {
+      "id": "C-001",
+      "type": "citation",
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord HR 28 mei 2004 (ECLI:NL:HR:2004:AO4224) citeert aan de hand van de ECLI, NJ-vindplaats (NJ 2005/105) of de datum in combinatie met de zaaknaam.",
+        "en": "PASS if the answer cites HR 28 May 2004 (ECLI:NL:HR:2004:AO4224) by ECLI, NJ 2005/105, or date combined with the case name."
+      },
+      "cited_authority": "HR 28 mei 2004 (ECLI:NL:HR:2004:AO4224)"
+    },
+    {
+      "id": "S-002",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord naar het arrest verwijst met een van de gangbare namen: 'Jetblast', 'Jetblast-arrest', 'Hartmann/Princess Juliana International Airport' of 'Hartmann/PJIA'.",
+        "en": "PASS if the answer refers to the decision by one of its common names: Jetblast, Jetblast decision, Hartmann/Princess Juliana International Airport, or Hartmann/PJIA."
+      }
+    },
+    {
+      "id": "S-003",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat voor de vraag of een waarschuwing als afdoende maatregel volstaat, beslissend is of van die waarschuwing mag worden verwacht dat zij leidt tot handelen of nalaten waardoor het gevaar wordt vermeden, dus de te verwachten effectiviteit van de waarschuwing.",
+        "en": "PASS if the answer states that, when deciding whether a warning is an adequate measure, the decisive test is whether the warning can be expected to produce conduct or inaction that avoids the danger — the warning's expected effectiveness."
+      }
+    },
+    {
+      "id": "S-004",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat het enkele feit dat potentiële slachtoffers door de waarschuwing van het gevaar op de hoogte konden zijn, onvoldoende is om de waarschuwing als een afdoende veiligheidsmaatregel aan te merken.",
+        "en": "PASS if the answer states that the mere fact that potential victims could have become aware of the danger through the warning is insufficient to make it an adequate safety measure."
+      }
+    },
+    {
+      "id": "S-005",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord de Jetblast-maatstaf plaatst in de context van onrechtmatige daad (art. 6:162 BW) of de Kelderluik-criteria voor gevaarzetting.",
+        "en": "PASS if the answer places the Jetblast standard in the context of tort under Article 6:162 BW or the Kelderluik criteria for creating a dangerous situation."
+      }
+    },
+    {
+      "id": "S-006",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord duidelijk maakt dat de Hoge Raad de woorden 'van doorslaggevende betekenis' of een gelijkwaardige formulering gebruikte voor het gewicht van de effectiviteitstoets, zodat effectiviteit niet slechts één factor maar de beslissende factor is.",
+        "en": "PASS if the answer conveys that the Supreme Court described the effectiveness test as 'decisive' (van doorslaggevende betekenis), signalling that effectiveness is not merely one factor but the deciding factor."
+      }
+    },
+    {
+      "id": "S-007",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord als kernfeit schetst dat een persoon zich nabij een luchthaven op Sint Maarten bevond.",
+        "en": "PASS if the answer sketches the core fact that a person was near an airport in Sint Maarten."
+      }
+    },
+    {
+      "id": "S-011",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord als kernfeit schetst dat een waarschuwingsbord voor het gevaar van jetblast waarschuwde.",
+        "en": "PASS if the answer sketches the core fact that a sign warned about jetblast danger."
+      }
+    },
+    {
+      "id": "S-012",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord als kernfeit schetst dat de persoon ondanks de waarschuwing door een jetblast gewond raakte.",
+        "en": "PASS if the answer sketches the core fact that the person was injured by jetblast despite the warning."
+      }
+    },
+    {
+      "id": "S-008",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat het geplaatste waarschuwingsbord in het Jetblast-arrest niet als afdoende maatregel werd beschouwd omdat het het gevaarlijke gedrag niet effectief voorkwam.",
+        "en": "PASS if the answer indicates that the warning sign in Jetblast was not considered adequate because it did not effectively prevent the dangerous behaviour."
+      }
+    },
+    {
+      "id": "S-009",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord Bayar/Wijnen (HR 11 november 2005) of een ander later arrest citeert waarin de Hoge Raad de Jetblast-maatstaf herhaalde of toepaste, of anderszins inhoudelijk bespreekt dat de maatstaf in latere rechtspraak is herhaald. LET OP: dit criterium verrijkt de context; uitsluitend het niet behalen ervan mag de totaalscore niet domineren.",
+        "en": "PASS if the answer cites Bayar/Wijnen (HR 11 November 2005) or another later decision in which the Supreme Court repeated or applied the Jetblast standard, or otherwise substantively addresses its repetition in later case law. NOTE: this checkpoint enriches context; failure alone should not dominate the overall score."
+      }
+    },
+    {
+      "id": "S-010",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord concludeert dat het Jetblast-arrest de leidende, eerste en belangrijkste uitspraak van de Hoge Raad is over de vraag of een waarschuwing volstaat als afdoende veiligheidsmaatregel in de context van onrechtmatige daad.",
+        "en": "PASS if the answer concludes that Jetblast is the leading, first and most important Supreme Court decision on whether a warning is an adequate safety measure in tort law."
+      }
+    },
+    {
+      "id": "F-013",
+      "type": "form",
+      "dimensions": [
+        "style",
+        "usability"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord in de openingsalinea de uitspraak vermeldt die het als de gevraagde leidende uitspraak van de Hoge Raad selecteert, vóór de juridische achtergrond of andere uitspraken worden besproken.",
+        "en": "PASS if the answer identifies in the opening paragraph the decision it selects as the requested leading Supreme Court decision, before giving the legal background or discussing other decisions."
+      }
+    },
+    {
+      "id": "F-014",
+      "type": "form",
+      "dimensions": [
+        "usability"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als de ondersteunende uitleg in verhouding staat tot het beperkte verzoek om Jetblast te identificeren en toe te lichten; eventuele aanvullende uitspraken zijn duidelijk ondergeschikt en krijgen niet evenveel of meer aandacht dan het gevraagde arrest.",
+        "en": "PASS if the supporting explanation remains proportionate to the narrow request to identify and explain Jetblast; any additional cases are clearly secondary and do not receive equal or greater treatment than the requested decision."
+      }
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "task_id": "insolvency-restructuring/pledgee-settlement-authority-over-pledged-claims",
+  "jurisdiction": "NL",
+  "normative_language": "nl",
+  "task_horizon": "short",
+  "law_as_of": "2026-08-30",
+  "practice_area": {
+    "nl": "Insolventierecht en herstructurering",
+    "en": "Insolvency & Restructuring"
+  },
+  "title": {
+    "nl": "Schikkingsbevoegdheid pandhouder bij verpande vorderingen",
+    "en": "Settlement authority of a pledgee over pledged claims"
+  },
+  "prompt": {
+    "nl": "Een openbaar pandhouder overweegt een schikking over een verpande vordering, terwijl een faillissement van de pandgever mogelijk is. Omvat de inningsbevoegdheid ook de bevoegdheid om te schikken, en kan die schikkingsbevoegdheid bij overeenkomst met goederenrechtelijke werking aan de pandhouder worden toegekend zodat zij tijdens het faillissement van de pandgever blijft bestaan?",
+    "en": "A disclosed pledgee is considering a settlement of a pledged claim while the pledgor may enter bankruptcy. Does the collection authority include authority to settle, and can that settlement authority be granted contractually to the pledgee with property-law effect so that it survives the pledgor's bankruptcy?"
+  },
+  "criteria": [
+    {
+      "id": "S-001",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat de wettelijke bevoegdheidsverdeling tussen pandhouder en pandgever bij een openbaar pandrecht op vorderingen van dwingendrechtelijke aard is.",
+        "en": "PASS if the answer states that the statutory allocation of powers between pledgee and pledgor under a disclosed pledge over claims is mandatory in nature."
+      }
+    },
+    {
+      "id": "S-012",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat de pandhouder na mededeling uitsluitend de inningsbevoegdheid en de daaruit voortvloeiende bevoegdheden verkrijgt.",
+        "en": "PASS if the answer states that, after notice has been given, the pledgee acquires only collection authority and the powers flowing from it."
+      }
+    },
+    {
+      "id": "S-013",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat alle schuldeisersbevoegdheden behalve de inningsbevoegdheid en de daaruit voortvloeiende bevoegdheden — waaronder de bevoegdheid een schikking te treffen, kwijtschelding te verlenen, een betalingsregeling overeen te komen of de onderliggende overeenkomst te beëindigen — bij de pandgever blijven.",
+        "en": "PASS if the answer states that all creditor powers other than collection authority and the powers flowing from it — including settling, granting a release, agreeing a repayment arrangement or terminating the underlying agreement — remain vested in the pledgor."
+      }
+    },
+    {
+      "id": "S-002",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord art. 3:246 BW met artikelnummer citeert.",
+        "en": "PASS if the answer cites Article 3:246 BW by article number."
+      }
+    },
+    {
+      "id": "C-004",
+      "type": "citation",
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord HR 21 februari 2014 citeert aan de hand van de ECLI (ECLI:NL:HR:2014:415), de datum of de NJ-vindplaats (NJ 2015/82).",
+        "en": "PASS if the answer cites HR 21 February 2014 by ECLI:NL:HR:2014:415, its date or NJ 2015/82."
+      },
+      "cited_authority": "HR 21 februari 2014"
+    },
+    {
+      "id": "S-005",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord de redengeving van HR 21 februari 2014 (IAE/Neo River) uitlegt dat een schikking een beschikking over de vordering inhoudt die verder gaat dan enkel innen.",
+        "en": "PASS if the answer explains the rationale of HR 21 February 2014 (IAE/Neo River): settlement entails a disposition over the claim that goes beyond mere collection."
+      }
+    },
+    {
+      "id": "S-006",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat het gesloten stelsel van goederenrechtelijke rechten (art. 3:81 lid 1 BW) eraan in de weg staat dat partijen de bevoegdheden van de pandhouder bij overeenkomst uitbreiden met goederenrechtelijke werking.",
+        "en": "PASS if the answer states that the closed system of property rights under Article 3:81(1) BW prevents parties from contractually extending the pledgee's powers with property-law effect."
+      }
+    },
+    {
+      "id": "S-014",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat de wet geen mogelijkheid biedt om de bevoegdheden van de pandhouder bij overeenkomst uit te breiden met goederenrechtelijke werking.",
+        "en": "PASS if the answer states that the law does not provide for contractual extension of the pledgee's powers with property-law effect."
+      }
+    },
+    {
+      "id": "S-015",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat goederenrechtelijke bepalingen dwingend zijn, tenzij de wet uitdrukkelijk afwijking toestaat.",
+        "en": "PASS if the answer states that property-law provisions are mandatory unless the statute expressly permits deviation."
+      }
+    },
+    {
+      "id": "S-007",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord art. 7:424 lid 1 BW aanduidt als de schakelbepaling waardoor de lastgevingsbepalingen over het eindigen van de lastgevingsovereenkomst van overeenkomstige toepassing zijn op overeenkomsten op grond waarvan de ene partij bevoegd is voor rekening van de andere rechtshandelingen te verrichten.",
+        "en": "PASS if the answer identifies Article 7:424(1) BW as the connecting provision that applies the mandate rules on termination correspondingly to agreements under which one party is authorised to perform legal acts for the account of another."
+      }
+    },
+    {
+      "id": "C-016",
+      "type": "citation",
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord art. 7:424 lid 1 BW met artikelnummer citeert.",
+        "en": "PASS if the answer cites Article 7:424(1) BW by article number."
+      },
+      "cited_authority": "Art. 7:424 lid 1 BW"
+    },
+    {
+      "id": "S-008",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord uitlegt dat een contractueel verleende schikkingsbevoegdheid op grond van art. 7:422 lid 1, aanhef en onder a, BW, via art. 7:424 BW, van rechtswege eindigt bij faillissement van de pandgever, ook wanneer de bevoegdheid uitsluitend in het belang van de pandhouder is verleend.",
+        "en": "PASS if the answer explains that, by operation of Article 7:422(1)(a) BW through Article 7:424 BW, a contractually granted settlement power lapses by operation of law upon the pledgor's bankruptcy, including where granted solely in the pledgee's interest."
+      }
+    },
+    {
+      "id": "C-017",
+      "type": "citation",
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord art. 7:422 lid 1, aanhef en onder a, BW met artikelnummer citeert.",
+        "en": "PASS if the answer cites Article 7:422(1)(a) BW by article number."
+      },
+      "cited_authority": "Art. 7:422 lid 1, aanhef en onder a, BW"
+    },
+    {
+      "id": "S-009",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord ingaat op de wetsgeschiedenis van art. 3:246 BW (Parl. Gesch. Boek 3, MvA II, p. 772–773), waaruit volgt dat de wettelijke bevoegdheidsverdeling een bewuste keuze van de wetgever is die berust op het zwaarwegende belang van de pandgever bij behoud van de betrokken schuldeisersbevoegdheden.",
+        "en": "PASS if the answer engages with the legislative history of Article 3:246 BW (Parl. Gesch. Boek 3, MvA II, pp. 772–773), explaining that the statutory allocation reflects a deliberate legislative choice based on the pledgor's substantial interest in retaining the relevant creditor powers."
+      }
+    },
+    {
+      "id": "S-018",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord bespreekt of de woorden 'in het algemeen' in de wetsgeschiedenis van art. 3:246 BW ruimte laten voor contractuele afwijking van de wettelijke verdeling van schuldeisersbevoegdheden en concludeert dat dit niet het geval is. Iedere juridisch gemotiveerde route naar die conclusie is aanvaardbaar; het antwoord hoeft de woorden niet aan te merken als een 'algemeen normatief uitgangspunt'.",
+        "en": "PASS if the answer addresses whether the phrase 'in general' (in het algemeen) in the legislative history of Article 3:246 BW leaves room for contractual deviation from the statutory allocation of creditor powers and concludes that it does not. Any legally reasoned route to that conclusion is acceptable; the answer need not characterise the phrase as a 'general normative standpoint.'"
+      }
+    },
+    {
+      "id": "C-011",
+      "type": "citation",
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord HR 9 december 2016, ECLI:NL:HR:2016:2833, NJ 2017/2 (Megalim/De Veenbloem) citeert aan de hand van de ECLI, datum of zaaknaam.",
+        "en": "PASS if the answer cites HR 9 December 2016, ECLI:NL:HR:2016:2833, NJ 2017/2 (Megalim/De Veenbloem), by ECLI, date or case name."
+      },
+      "cited_authority": "HR 9 december 2016"
+    },
+    {
+      "id": "S-019",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord uitlegt dat HR 9 december 2016, Megalim/De Veenbloem, de reikwijdte van de inningsbevoegdheid van de pandhouder functioneel omschrijft: zij omvat maatregelen om de verpande vordering op het vermogen van de schuldenaar te verhalen, waaronder het aanvragen van diens faillissement. Het antwoord moet die verhaalsfunctie gebruiken om een schikking of kwijtschelding te onderscheiden, omdat deze de vordering wijzigt of daarover beschikt in plaats van haar af te dwingen.",
+        "en": "PASS if the answer explains that HR 9 December 2016, Megalim/De Veenbloem, defines the pledgee's collection authority functionally: it includes measures used to recover the pledged claim against the debtor's assets, including applying for the debtor's bankruptcy. The answer must use that recovery function to distinguish settlement or remission, which alters or disposes of the claim rather than enforcing it."
+      }
+    },
+    {
+      "id": "F-020",
+      "type": "form",
+      "dimensions": [
+        "style",
+        "usability"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord de twee gestelde vragen afzonderlijk herkenbaar behandelt: of de wettelijke inningsbevoegdheid ook de bevoegdheid tot schikking omvat en of een contractuele schikkingsbevoegdheid goederenrechtelijke werking kan hebben en het faillissement van de pandgever kan overleven.",
+        "en": "PASS if the answer treats the two questions separately and identifiably: whether statutory collection authority includes settlement, and whether a contractual settlement power can have property-law effect and survive the pledgor's bankruptcy."
+      }
+    },
+    {
+      "id": "F-021",
+      "type": "form",
+      "dimensions": [
+        "style",
+        "usability"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als art. 3:246 BW, de wetsgeschiedenis daarvan en Megalim/De Veenbloem ieder worden geplaatst bij de specifieke stelling die zij ondersteunen; een gezamenlijke mededeling dat de bronnen het antwoord bevestigen of een losstaande bronnenlijst is onvoldoende.",
+        "en": "PASS if Article 3:246 BW, its legislative history and Megalim/De Veenbloem are each placed with the particular proposition they support; a collective assertion that the sources confirm the answer or a stand-alone source list is insufficient."
+      }
+    }
+  ]
+}

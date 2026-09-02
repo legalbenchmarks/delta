@@ -1,0 +1,310 @@
+{
+  "task_id": "contract-law/contractual-terms-outside-section-6-5-3-bw",
+  "jurisdiction": "NL",
+  "normative_language": "nl",
+  "task_horizon": "short",
+  "law_as_of": "2026-08-30",
+  "practice_area": {
+    "nl": "Contractenrecht",
+    "en": "Contract law"
+  },
+  "title": {
+    "nl": "Contractuele voorwaarden buiten afdeling 6.5.3 BW",
+    "en": "Contractual terms outside Section 6.5.3 BW"
+  },
+  "prompt": {
+    "nl": "Een bedrijfsjurist beoordeelt contractuele voorwaarden in een B2B-verhouding. De bepalingen kwalificeren niet als algemene voorwaarden in de zin van artikel 6:231 BW. Welke regels gelden voor de totstandkoming en uitleg ervan?",
+    "en": "An in-house lawyer is reviewing contractual terms in a B2B relationship. The provisions do not qualify as general terms and conditions within the meaning of Article 6:231 BW. What rules govern their formation and interpretation?"
+  },
+  "criteria": [
+    {
+      "id": "S-001",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord onderkent dat, wanneer contractuele bedingen niet als algemene voorwaarden in de zin van art. 6:231 BW kwalificeren, de totstandkoming daarvan wordt beheerst door de algemene regels van het verbintenissenrecht.",
+        "en": "PASS if the answer identifies that, when contractual terms do not qualify as general terms and conditions under Article 6:231 BW, their formation is governed by the general rules of contract law."
+      }
+    },
+    {
+      "id": "S-016",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord onderkent dat, wanneer contractuele bedingen niet als algemene voorwaarden in de zin van art. 6:231 BW kwalificeren, de uitleg daarvan wordt beheerst door de algemene regels van het verbintenissenrecht.",
+        "en": "PASS if the answer identifies that, when contractual terms do not qualify as general terms and conditions under Article 6:231 BW, their interpretation is governed by the general rules of contract law."
+      }
+    },
+    {
+      "id": "C-002",
+      "type": "citation",
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord art. 6:217 BW citeert als grondslag voor de totstandkoming van de overeenkomst.",
+        "en": "PASS if the answer cites Article 6:217 BW as the basis for formation of the contract."
+      },
+      "cited_authority": "art. 6:217 BW"
+    },
+    {
+      "id": "S-003",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat de totstandkoming van de overeenkomst, waaronder de toepasselijkheid van de set voorwaarden, wordt beoordeeld volgens het model van aanbod en aanvaarding.",
+        "en": "PASS if the answer states that formation of the contract, including applicability of the set of terms, is assessed under the offer-and-acceptance model."
+      }
+    },
+    {
+      "id": "C-004",
+      "type": "citation",
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord art. 3:33 BW citeert in de context van wil en verklaring.",
+        "en": "PASS if the answer cites Article 3:33 BW in the context of intention and declaration."
+      },
+      "cited_authority": "art. 3:33 BW"
+    },
+    {
+      "id": "S-005",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord uitlegt dat art. 3:33 BW vereist dat een op rechtsgevolg gerichte wil zich door een verklaring heeft geopenbaard.",
+        "en": "PASS if the answer explains that Article 3:33 BW requires a legally relevant intention directed toward legal effect to manifest through a declaration."
+      }
+    },
+    {
+      "id": "C-006",
+      "type": "citation",
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord art. 3:35 BW citeert in de context van gerechtvaardigd vertrouwen.",
+        "en": "PASS if the answer cites Article 3:35 BW in the context of justified reliance."
+      },
+      "cited_authority": "art. 3:35 BW"
+    },
+    {
+      "id": "S-007",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord uitlegt dat art. 3:35 BW de partij beschermt die de verklaring of gedraging van de wederpartij onder de gegeven omstandigheden redelijkerwijs in een bepaalde zin heeft opgevat, dus daarop gerechtvaardigd heeft vertrouwd.",
+        "en": "PASS if the answer explains that Article 3:35 BW protects a party who reasonably interpreted the other party's declaration or conduct as having a particular meaning in the circumstances."
+      }
+    },
+    {
+      "id": "S-008",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord de Haviltex-maatstaf, bij naam of door verwijzing naar HR 13 maart 1981, ECLI:NL:HR:1981:AG4158, aanwijst als geldende maatstaf voor de uitleg van de contractuele bedingen.",
+        "en": "PASS if the answer identifies the Haviltex standard, by name or reference to HR 13 March 1981, ECLI:NL:HR:1981:AG4158, as governing interpretation of the contractual terms."
+      }
+    },
+    {
+      "id": "S-009",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord uitlegt dat volgens de Haviltex-maatstaf beslissend is welke betekenis partijen in de gegeven omstandigheden redelijkerwijs aan de bepalingen mochten toekennen.",
+        "en": "PASS if the answer explains that the Haviltex standard turns on the meaning the parties could reasonably attribute to the provisions in the circumstances."
+      }
+    },
+    {
+      "id": "S-017",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord uitlegt dat volgens de Haviltex-maatstaf mede beslissend is wat partijen in de gegeven omstandigheden redelijkerwijs van elkaar mochten verwachten ten aanzien van de betekenis van de bepalingen.",
+        "en": "PASS if the answer explains that the Haviltex standard also turns on what the parties could reasonably expect from each other regarding the provisions' meaning in the circumstances."
+      }
+    },
+    {
+      "id": "C-010",
+      "type": "citation",
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord art. 6:248 lid 2 BW citeert als grondslag voor de beperkende werking van de redelijkheid en billijkheid.",
+        "en": "PASS if the answer cites Article 6:248(2) BW as the source of the restrictive effect of reasonableness and fairness."
+      },
+      "cited_authority": "art. 6:248 lid 2 BW"
+    },
+    {
+      "id": "S-011",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat een specifiek contractueel beding buiten toepassing kan blijven wanneer toepassing daarvan naar maatstaven van redelijkheid en billijkheid onaanvaardbaar zou zijn in de zin van art. 6:248 lid 2 BW.",
+        "en": "PASS if the answer states that a specific contractual term may be set aside where applying it would be unacceptable according to standards of reasonableness and fairness under Article 6:248(2) BW."
+      }
+    },
+    {
+      "id": "S-012",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat partijen overeenstemming moeten hebben over de toepasselijkheid van de set voorwaarden om deze onderdeel van de overeenkomst te laten worden.",
+        "en": "PASS if the answer states that the parties must agree on applicability of the set of terms for those terms to become part of the contract."
+      }
+    },
+    {
+      "id": "S-013",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord onderkent dat buiten het regime van afdeling 6.5.3 BW de vernietigingsmogelijkheid voor algemene voorwaarden niet van toepassing is.",
+        "en": "PASS if the answer identifies that, outside Section 6.5.3 BW, the annulment remedy available for general terms and conditions does not apply."
+      }
+    },
+    {
+      "id": "S-014",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord de beperkende werking van de redelijkheid en billijkheid van art. 6:248 lid 2 BW aanwijst als het voornaamste correctiemechanisme in een B2B-verhouding waarin het vernietigingsregime van afdeling 6.5.3 BW niet beschikbaar is.",
+        "en": "PASS if the answer identifies the restrictive effect of reasonableness and fairness under Article 6:248(2) BW as the principal corrective mechanism in a B2B setting where Section 6.5.3 BW's annulment regime is unavailable."
+      }
+    },
+    {
+      "id": "S-015",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord de algemene regels over totstandkoming uit de artt. 3:33, 3:35 en 6:217 BW verbindt met de vraag of de B2B-voorwaarden onderdeel van de overeenkomst zijn geworden, en het niet kwalificeren als algemene voorwaarden onder art. 6:231 BW niet op zichzelf als beslissend voor de totstandkoming behandelt.",
+        "en": "PASS if the answer connects the general formation rules in Articles 3:33, 3:35 and 6:217 BW to whether the B2B terms became part of the agreement and does not treat the terms' failure to qualify as general terms under Article 6:231 BW as decisive in itself for formation."
+      }
+    },
+    {
+      "id": "S-018",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord de uitleg van de B2B-voorwaarden volgens Haviltex behandelt nadat het de totstandkoming en toepasselijkheid daarvan afzonderlijk heeft beoordeeld, en totstandkoming en uitleg niet als dezelfde vraag behandelt.",
+        "en": "PASS if the answer addresses interpretation of the B2B terms under Haviltex after separately assessing their formation and applicability and does not treat formation and interpretation as the same question."
+      }
+    },
+    {
+      "id": "S-019",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord art. 6:248 lid 2 BW behandelt als een mogelijke uitzonderlijke correctie op de toepassing van een beding dat onderdeel van de overeenkomst is geworden en is uitgelegd, en niet als regel voor de totstandkoming of uitleg zelf.",
+        "en": "PASS if the answer treats Article 6:248(2) BW as a possible exceptional correction to the application of a term that has become part of the agreement and has been interpreted, rather than as a rule governing formation or interpretation itself."
+      }
+    },
+    {
+      "id": "S-023",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat de toepasselijke uitlegmaatstaf afhangt van alle omstandigheden van het concrete geval, gewaardeerd naar maatstaven van redelijkheid en billijkheid; Haviltex geldt in beginsel voor tweezijdige overeenkomsten, terwijl de aard van het document een meer objectieve benadering kan rechtvaardigen, onder verwijzing naar het DSM/Fox-arrest of ECLI:NL:HR:2004:AO1427.",
+        "en": "PASS if the answer states that the applicable interpretative approach depends on all circumstances of the concrete case, assessed according to reasonableness and fairness; Haviltex ordinarily governs bilateral contracts, while the nature of the document may justify a more objective approach, with reference to the DSM/Fox decision or ECLI:NL:HR:2004:AO1427."
+      }
+    },
+    {
+      "id": "S-024",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat bij een commerciële overeenkomst groot gewicht kan toekomen aan de bewoordingen wanneer uit de totstandkomingsomstandigheden blijkt dat partijen de contractstekst zorgvuldig hebben doordacht, onder verwijzing naar het Lundiform/Mexx-arrest of ECLI:NL:HR:2013:BY8101, maar dat Haviltex beslissend blijft en contextuele omstandigheden nog steeds een andere uitleg kunnen rechtvaardigen.",
+        "en": "PASS if the answer states that, in a commercial contract, substantial weight may be given to the wording where the formation circumstances show that the parties carefully considered the contract text, with reference to the Lundiform/Mexx decision or ECLI:NL:HR:2013:BY8101, but that Haviltex remains decisive and contextual circumstances may still justify a different interpretation."
+      }
+    },
+    {
+      "id": "F-020",
+      "type": "form",
+      "dimensions": [
+        "style",
+        "usability"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord de twee gevraagde onderwerpen primair en afzonderlijk behandelt: (i) de totstandkoming en toepasselijkheid van de B2B-voorwaarden en (ii) de uitleg daarvan; een bespreking van inhoudstoetsing, derdenwerking of een entire-agreementclausule mag niet evenveel of meer nadruk krijgen dan een van beide gevraagde onderwerpen.",
+        "en": "PASS if the answer gives primary and separate treatment to the two matters asked about: (i) formation and applicability of the B2B terms and (ii) their interpretation; substantive review, third-party effects or an entire-agreement clause must not receive equal or greater prominence than either requested matter."
+      }
+    },
+    {
+      "id": "F-021",
+      "type": "form",
+      "dimensions": [
+        "usability"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als een bespreking van de aanvullende of beperkende werking van redelijkheid en billijkheid uitdrukkelijk als aanvulling op de gevraagde analyse van totstandkoming en uitleg wordt gepresenteerd, en niet als een derde onderdeel van het rechtstreekse antwoord.",
+        "en": "PASS if any discussion of the supplementary or restrictive effects of reasonableness and fairness is expressly presented as additional to the requested formation and interpretation analysis rather than as a third part of the direct answer."
+      }
+    },
+    {
+      "id": "F-022",
+      "type": "form",
+      "dimensions": [
+        "style",
+        "usability"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als de conclusies over totstandkoming en uitleg ieder eenmaal worden uitgewerkt en hoogstens eenmaal in een beknopte slotsynthese worden herhaald; een tabel, checklist of bronnenlijst moet vergelijking, navigatie of koppeling tussen bron en rechtsregel toevoegen en mag de analyse niet grotendeels herhalen.",
+        "en": "PASS if the formation and interpretation conclusions are each developed once and, at most, restated once in a concise final synthesis; any table, checklist or source list must add comparison, navigation or authority mapping rather than substantially repeat the analysis."
+      }
+    }
+  ]
+}

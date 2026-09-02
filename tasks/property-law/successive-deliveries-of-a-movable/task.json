@@ -1,0 +1,318 @@
+{
+  "task_id": "property-law/successive-deliveries-of-a-movable",
+  "jurisdiction": "NL",
+  "normative_language": "nl",
+  "task_horizon": "short",
+  "law_as_of": "2026-08-30",
+  "practice_area": {
+    "nl": "Goederenrecht",
+    "en": "Property law"
+  },
+  "title": {
+    "nl": "Eigendomsoverdracht bij dubbele levering roerende zaak",
+    "en": "Transfer of ownership after successive deliveries of a movable item"
+  },
+  "prompt": {
+    "nl": "Een verkoper had het enige exemplaar van een nog te produceren product al aan een eerste koper geleverd. Daarna leverde hij hetzelfde product aan een tweede koper, die het na productie als eerste fysiek in ontvangst nam.\n\nHeeft er een geldige eigendomsoverdracht aan de tweede koper plaatsgevonden?",
+    "en": "A seller had already delivered the only unit of a product that was yet to be manufactured to a first buyer. The seller then delivered the same product to a second buyer, who was the first to take physical possession of it after it was manufactured.\n\nWas there a valid transfer of ownership to the second buyer?"
+  },
+  "criteria": [
+    {
+      "id": "S-001",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat overdracht van een roerende zaak ten minste levering door een beschikkingsbevoegde vereist.",
+        "en": "PASS if the answer states that transfer of movable property requires, at minimum, delivery by a person authorised to dispose of it."
+      }
+    },
+    {
+      "id": "C-002",
+      "type": "citation",
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord art. 3:86 BW met artikelnummer citeert.",
+        "en": "PASS if the answer cites Article 3:86 BW by article number."
+      },
+      "cited_authority": "art. 3:86 BW"
+    },
+    {
+      "id": "S-003",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord uitlegt dat art. 3:86 BW bescherming biedt aan een verkrijger die een goed te goeder trouw verkrijgt.",
+        "en": "PASS if the answer explains that Article 3:86 BW protects an acquirer who acquires property in good faith."
+      }
+    },
+    {
+      "id": "S-015",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord uitlegt dat art. 3:86 BW bescherming biedt aan een verkrijger die een goed van een beschikkingsonbevoegde verkrijgt.",
+        "en": "PASS if the answer explains that Article 3:86 BW protects an acquirer who receives property from a person lacking authority to dispose of it."
+      }
+    },
+    {
+      "id": "S-016",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord uitlegt dat art. 3:86 BW bescherming biedt aan een verkrijger mits de verkrijging anders dan om niet plaatsvindt.",
+        "en": "PASS if the answer explains that Article 3:86 BW protects an acquirer provided the acquisition was for value."
+      }
+    },
+    {
+      "id": "C-004",
+      "type": "citation",
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord art. 3:97 lid 2 BW met artikelnummer citeert.",
+        "en": "PASS if the answer cites Article 3:97(2) BW by article number."
+      },
+      "cited_authority": "art. 3:97 lid 2 BW"
+    },
+    {
+      "id": "S-005",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord uitlegt dat art. 3:97 lid 2 BW het mogelijk maakt een toekomstige zaak bij voorbaat te leveren.",
+        "en": "PASS if the answer explains that Article 3:97(2) BW permits advance delivery of future property."
+      }
+    },
+    {
+      "id": "S-017",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord uitlegt dat bij levering van een toekomstige zaak bij voorbaat de verkrijger eigenaar wordt op het moment waarop de vervreemder de zaak verkrijgt.",
+        "en": "PASS if the answer explains that, following advance delivery of future property, the acquirer becomes owner when the transferor acquires the property."
+      }
+    },
+    {
+      "id": "S-006",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat de eerste koper door de eerdere levering bij voorbaat in beginsel eigenaar is geworden op het moment waarop de verkoper het product verkreeg.",
+        "en": "PASS if the answer states that the first buyer in principle became owner when the seller acquired the product, as a result of the earlier advance delivery."
+      }
+    },
+    {
+      "id": "S-007",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat de verkoper na de levering aan de eerste koper niet meer beschikkingsbevoegd is ten aanzien van het product.",
+        "en": "PASS if the answer states that, after delivery to the first buyer, the seller was no longer authorised to dispose of the product."
+      }
+    },
+    {
+      "id": "S-008",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat de tweede levering in beginsel ongeldig is wegens het ontbreken van beschikkingsbevoegdheid.",
+        "en": "PASS if the answer states that the second delivery is invalid in principle because authority to dispose was absent."
+      }
+    },
+    {
+      "id": "S-009",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat de tweede koper te goeder trouw moet zijn, wat inhoudt dat hij niet wist dat de verkoper niet meer beschikkingsbevoegd was.",
+        "en": "PASS if the answer states that the second buyer must have acted in good faith, meaning that the buyer did not know the seller was no longer authorised to dispose of the product."
+      }
+    },
+    {
+      "id": "S-018",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat de tweede koper te goeder trouw moet zijn, wat inhoudt dat hij niet behoorde te weten dat de verkoper niet meer beschikkingsbevoegd was.",
+        "en": "PASS if the answer states that the second buyer must have acted in good faith, meaning that the buyer ought not to have known the seller was no longer authorised to dispose of the product."
+      }
+    },
+    {
+      "id": "S-011",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord uitlegt dat het feit dat de tweede koper het product als eerste fysiek in ontvangst neemt niet zonder meer betekent dat hij eigenaar is geworden.",
+        "en": "PASS if the answer explains that the second buyer's being first to receive the product physically does not by itself mean that the second buyer became owner."
+      }
+    },
+    {
+      "id": "S-012",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord onderkent dat de vraag afhangt van de vereisten voor overdracht.",
+        "en": "PASS if the answer identifies that the question turns on the requirements for transfer."
+      }
+    },
+    {
+      "id": "S-019",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord onderkent dat de vraag afhangt van het verlies van beschikkingsbevoegdheid na een eerdere levering bij voorbaat.",
+        "en": "PASS if the answer identifies that the question turns on the loss of authority to dispose following the earlier advance delivery."
+      }
+    },
+    {
+      "id": "S-020",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord onderkent dat de vraag afhangt van mogelijke redding door derdenbescherming op grond van art. 3:86 BW.",
+        "en": "PASS if the answer identifies that the question turns on possible protection of the second acquirer under Article 3:86 BW."
+      }
+    },
+    {
+      "id": "S-013",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord concludeert dat de tweede koper alleen eigenaar kan worden indien hij zich met succes op art. 3:86 BW beroept.",
+        "en": "PASS if the answer concludes that the second buyer can become owner only by successfully relying on Article 3:86 BW."
+      }
+    },
+    {
+      "id": "S-014",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord onderkent dat voor overdracht beschikkingsbevoegdheid vereist is op grond van art. 3:84 BW.",
+        "en": "PASS if the answer identifies that authority to dispose is required for transfer under Article 3:84 BW."
+      }
+    },
+    {
+      "id": "S-021",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord onderkent dat voor overdracht een geldige titel vereist is op grond van art. 3:84 BW.",
+        "en": "PASS if the answer identifies that a valid legal basis is required for transfer under Article 3:84 BW."
+      }
+    },
+    {
+      "id": "S-022",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord onderkent dat voor overdracht levering vereist is op grond van art. 3:84 BW.",
+        "en": "PASS if the answer identifies that delivery is required for transfer under Article 3:84 BW."
+      }
+    },
+    {
+      "id": "F-023",
+      "type": "form",
+      "dimensions": [
+        "style",
+        "usability"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord de volgorde van de eerdere levering bij voorbaat, het daaropvolgende ontbreken van beschikkingsbevoegdheid van de verkoper en het mogelijke beroep van de tweede koper op art. 3:86 BW in de hoofdanalyse en hoogstens eenmaal opnieuw in een korte conclusie weergeeft; het herhaalt die volgorde niet in een aanvullende samenvatting of tabel en voegt geen procedurele opmerking of losstaande bronnenlijst toe die reeds in de analyse geïntegreerde informatie dupliceert.",
+        "en": "PASS if, when the answer states the sequence involving the earlier advance delivery, the seller's subsequent lack of authority to dispose and the second buyer's possible reliance on Article 3:86 BW, it presents that sequence in the main analysis and at most once more in a short conclusion; it does not repeat the sequence in an additional summary or table or append a procedural note or stand-alone source list duplicating material already integrated into the analysis."
+      }
+    },
+    {
+      "id": "S-024",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als de eindconclusie de in de analyse uitgewerkte voorwaardelijke verbanden tussen de eerdere levering bij voorbaat, fysieke inbezitneming, goede trouw en art. 3:86 BW behoudt en fysieke ontvangst of goede trouw niet afzonderlijk als een zelfstandige en daarmee strijdige grondslag voor eigendom presenteert.",
+        "en": "PASS if the final conclusion preserves the conditional relationships developed in the analysis among the earlier advance delivery, physical possession, good faith and Article 3:86 BW; it does not present physical receipt or good faith alone as a separate and inconsistent basis for ownership."
+      }
+    },
+    {
+      "id": "F-025",
+      "type": "form",
+      "dimensions": [
+        "style",
+        "usability"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als de openingsalinea vóór de uitvoerige analyse van rangorde en derdenbescherming beknopt de conclusie van het antwoord vermeldt over de vraag of de tweede koper eigenaar is geworden, met behoud van de in de analyse gebruikte voorwaarden.",
+        "en": "PASS if the opening paragraph concisely states the answer's conclusion on whether the second buyer acquired ownership before the detailed priority and third-party-protection analysis, preserving the conditions used in the analysis."
+      }
+    }
+  ]
+}

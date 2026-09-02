@@ -1,0 +1,223 @@
+{
+  "task_id": "tort-law/animal-liability-and-exoneration-clauses",
+  "jurisdiction": "NL",
+  "normative_language": "nl",
+  "task_horizon": "short",
+  "law_as_of": "2026-08-30",
+  "practice_area": {
+    "nl": "Aansprakelijkheidsrecht",
+    "en": "Tort law"
+  },
+  "title": {
+    "nl": "Dierenaansprakelijkheid en exoneratiebeding bij paarden",
+    "en": "Animal liability and exoneration clauses involving horses"
+  },
+  "prompt": {
+    "nl": "Onze cliënt heeft schade geleden door een paard en de eigenaar beroept zich op een exoneratiebeding. Welke rechtspraak is relevant voor de aansprakelijkheid voor de schade en voor de werking of begrenzing van het exoneratiebeding?",
+    "en": "Our client suffered damage caused by a horse, and the owner invokes an exclusion clause. Which case law is relevant to liability for the damage and to the operation or limits of the exclusion clause?"
+  },
+  "criteria": [
+    {
+      "id": "C-001",
+      "type": "citation",
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord art. 6:179 BW of art. 179 Boek 6 BW citeert als toepasselijke grondslag.",
+        "en": "PASS if the answer cites Article 6:179 BW or Article 179 of Book 6 BW as the applicable legal basis."
+      },
+      "cited_authority": "art. 6:179 BW"
+    },
+    {
+      "id": "S-002",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat art. 6:179 BW een risicoaansprakelijkheid vestigt op de bezitter van een dier voor schade die door de eigen energie van het dier is aangericht.",
+        "en": "PASS if the answer states that Article 6:179 BW imposes strict liability on an animal's possessor for damage caused by the animal's own energy."
+      }
+    },
+    {
+      "id": "C-003",
+      "type": "citation",
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord HR 25 oktober 2002 (ECLI:NL:HR:2002:AE7010) citeert of het arrest aanduidt met de partijnaam Manege Nieuw Amstelland.",
+        "en": "PASS if the answer cites HR 25 October 2002 (ECLI:NL:HR:2002:AE7010) or identifies the decision by the party name Manege Nieuw Amstelland."
+      },
+      "cited_authority": "HR 25 oktober 2002, ECLI:NL:HR:2002:AE7010, Manege Nieuw Amstelland"
+    },
+    {
+      "id": "S-004",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord inhoudelijk ingaat op het Manege Nieuw Amstelland-arrest, bijvoorbeeld door te vermelden dat de Hoge Raad oordeelde over de reikwijdte van de risicoaansprakelijkheid van art. 6:179 BW en/of de verhouding tot eigen schuld.",
+        "en": "PASS if the answer substantively discusses the Manege Nieuw Amstelland decision, for example by noting the Supreme Court's treatment of the scope of strict liability under Article 6:179 BW and/or its relationship with contributory negligence."
+      }
+    },
+    {
+      "id": "S-005",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord onderkent dat de eigenaar of bezitter zich kan beroepen op een exoneratiebeding ter beperking van de aansprakelijkheid op grond van art. 6:179 BW.",
+        "en": "PASS if the answer identifies that the owner or possessor may invoke an exoneration clause to limit liability under Article 6:179 BW."
+      }
+    },
+    {
+      "id": "S-006",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat de geldigheid of inroepbaarheid van het exoneratiebeding wordt getoetst aan de redelijkheid en billijkheid, waaronder art. 6:248 lid 2 BW.",
+        "en": "PASS if the answer states that validity or enforceability of the exoneration clause is assessed according to reasonableness and fairness, including Article 6:248(2) BW."
+      }
+    },
+    {
+      "id": "S-007",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat aan de geldigheid van een exoneratiebeding bij risicoaansprakelijkheid strenge eisen worden gesteld.",
+        "en": "PASS if the answer indicates that strict requirements apply to the validity of an exoneration clause concerning strict liability."
+      }
+    },
+    {
+      "id": "S-015",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat aan de inroepbaarheid van een exoneratiebeding bij risicoaansprakelijkheid strenge eisen worden gesteld.",
+        "en": "PASS if the answer indicates that strict requirements apply to the enforceability of an exoneration clause concerning strict liability."
+      }
+    },
+    {
+      "id": "S-008",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat de beoordeling van het exoneratiebeding afhangt van de omstandigheden van het geval, zoals de hoedanigheid van partijen en/of de wijze waarop het beding tot stand is gekomen.",
+        "en": "PASS if the answer states that assessment of the exoneration clause depends on the circumstances, such as the parties' capacities and/or how the clause was formed."
+      }
+    },
+    {
+      "id": "S-009",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord Hof Arnhem 17 juni 2003 (ECLI:NL:GHARN:2003:AH8810, Stal Mansour/Zwolsche Algemeene NV) citeert over exoneratiebedingen bij dierenaansprakelijkheid in de context van paarden.",
+        "en": "PASS if the answer cites Arnhem Court of Appeal, 17 June 2003 (ECLI:NL:GHARN:2003:AH8810, Stal Mansour/Zwolsche Algemeene NV) on exoneration clauses and animal liability in the context of horses."
+      }
+    },
+    {
+      "id": "S-010",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord Gerechtshof Arnhem 17 februari 2004 (ECLI:NL:GHARN:2004:AQ6696) citeert of anderszins inhoudelijk ingaat op het vervolgarrest over de beperking van risicoaansprakelijkheid door een exoneratiebeding.",
+        "en": "PASS if the answer cites Arnhem Court of Appeal, 17 February 2004 (ECLI:NL:GHARN:2004:AQ6696), or otherwise substantively engages with the follow-up ruling on limiting strict liability through an exoneration clause."
+      }
+    },
+    {
+      "id": "C-011",
+      "type": "citation",
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord Rb. Gelderland 28 maart 2022 (ECLI:NL:RBGEL:2022:1498) citeert of anderszins verwijst naar lagere rechtspraak uit Gelderland over dierenaansprakelijkheid en exoneratie.",
+        "en": "PASS if the answer cites Gelderland District Court, 28 March 2022 (ECLI:NL:RBGEL:2022:1498), or otherwise refers to lower-court case law from Gelderland on animal liability and exoneration."
+      },
+      "cited_authority": "Rb. Gelderland 28 maart 2022, ECLI:NL:RBGEL:2022:1498"
+    },
+    {
+      "id": "C-012",
+      "type": "citation",
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord Rb. Gelderland 22 juni 2022 (ECLI:NL:RBGEL:2022:3339) citeert of anderszins verwijst naar een tweede Gelderlandse uitspraak over dezelfde problematiek.",
+        "en": "PASS if the answer cites Gelderland District Court, 22 June 2022 (ECLI:NL:RBGEL:2022:3339), or otherwise refers to a second Gelderland decision on the same issue."
+      },
+      "cited_authority": "Rb. Gelderland 22 juni 2022, ECLI:NL:RBGEL:2022:3339"
+    },
+    {
+      "id": "C-013",
+      "type": "citation",
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord Rb. Noord-Holland 23 juni 2022 (ECLI:NL:RBNHO:2022:5952) citeert of anderszins verwijst naar rechtspraak uit Noord-Holland over dierenaansprakelijkheid en exoneratiebedingen.",
+        "en": "PASS if the answer cites North Holland District Court, 23 June 2022 (ECLI:NL:RBNHO:2022:5952), or otherwise refers to North Holland case law on animal liability and exoneration clauses."
+      },
+      "cited_authority": "Rb. Noord-Holland 23 juni 2022, ECLI:NL:RBNHO:2022:5952"
+    },
+    {
+      "id": "S-016",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord een conclusie bereikt die verenigbaar is met het uitgangspunt dat een exoneratiebeding de aansprakelijkheid op grond van art. 6:179 BW onder strenge voorwaarden kan beperken.",
+        "en": "PASS if the answer reaches a conclusion compatible with an exoneration clause being capable of limiting liability under Article 6:179 BW subject to strict conditions."
+      }
+    },
+    {
+      "id": "F-017",
+      "type": "form",
+      "dimensions": [
+        "style",
+        "usability"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als de aangehaalde rechtspraak is geordend naar de stelling die zij ondersteunt, waarbij uitspraken over aansprakelijkheid voor door het paard veroorzaakte schade worden onderscheiden van uitspraken over de werking of grenzen van het exoneratiebeding.",
+        "en": "PASS if the cited case law is organised by the proposition it supports, distinguishing authorities on liability for damage caused by the horse from authorities on the operation or limits of the exoneration clause."
+      }
+    },
+    {
+      "id": "F-018",
+      "type": "form",
+      "dimensions": [
+        "usability"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord de twee gevraagde onderwerpen — aansprakelijkheid voor door het paard veroorzaakte schade en het exoneratiebeding — primair en in passende verhouding behandelt, zonder dat algemene achtergrond over dierenaansprakelijkheid, lange zaakoverzichten of nevenkwesties een van beide onderwerpen verhullen.",
+        "en": "PASS if the answer gives primary and proportionate treatment to the two matters asked about — horse-related liability and the exoneration clause — without allowing general animal-liability background, lengthy case summaries or ancillary issues to obscure either matter."
+      }
+    }
+  ]
+}

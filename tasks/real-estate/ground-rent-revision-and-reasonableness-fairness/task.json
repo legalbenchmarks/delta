@@ -1,0 +1,226 @@
+{
+  "task_id": "real-estate/ground-rent-revision-and-reasonableness-fairness",
+  "jurisdiction": "NL",
+  "normative_language": "nl",
+  "task_horizon": "short",
+  "law_as_of": "2026-08-30",
+  "practice_area": {
+    "nl": "Vastgoedrecht",
+    "en": "Real estate"
+  },
+  "title": {
+    "nl": "Beperkende werking bij canonherzieningsbepalingen in erfpacht",
+    "en": "Restrictive effect of reasonableness and fairness on ground-rent revision clauses"
+  },
+  "prompt": {
+    "nl": "Een erfpachter wordt geconfronteerd met de toepassing van een contractueel overeengekomen canonherzieningsbepaling. In hoeverre kan de erfpachter zich beroepen op de beperkende werking van redelijkheid en billijkheid om de gevolgen daarvan te beperken?",
+    "en": "A long leaseholder faces the application of a contractually agreed ground-rent revision clause. To what extent may the long leaseholder invoke the restrictive effect of reasonableness and fairness to limit its consequences?"
+  },
+  "criteria": [
+    {
+      "id": "S-001",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord concludeert dat een beroep op de beperkende werking van redelijkheid en billijkheid (art. 6:248 lid 2 BW) om de gevolgen van een canonherzieningsbepaling te beperken niet principieel is uitgesloten.",
+        "en": "PASS if the answer concludes that invoking the restrictive effect of reasonableness and fairness (Article 6:248(2) BW) to limit the effects of a ground-rent revision clause is not excluded as a matter of principle."
+      }
+    },
+    {
+      "id": "S-015",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord concludeert dat een beroep op de beperkende werking van redelijkheid en billijkheid (art. 6:248 lid 2 BW) om de gevolgen van een canonherzieningsbepaling te beperken slechts in zeer uitzonderlijke omstandigheden mogelijk is.",
+        "en": "PASS if the answer concludes that invoking the restrictive effect of reasonableness and fairness (Article 6:248(2) BW) to limit the effects of a ground-rent revision clause is confined to very exceptional circumstances."
+      }
+    },
+    {
+      "id": "S-002",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat de wetgever de inhoud van canonherzieningsbepalingen volledig aan partijen heeft overgelaten.",
+        "en": "PASS if the answer states that the legislature left the content of ground-rent revision clauses entirely to the parties."
+      }
+    },
+    {
+      "id": "S-016",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat het huidige Nederlandse recht geen 'rechtvaardige prijs' kent (de leer van het iustum pretium is verlaten).",
+        "en": "PASS if the answer states that current Dutch law does not recognise a 'just price' (rechtvaardige prijs), because the iustum pretium doctrine has been abandoned."
+      }
+    },
+    {
+      "id": "S-003",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord de wettelijke maatstaf van art. 5:97 BW voor wijziging van erfpachtvoorwaarden juist weergeeft: er moeten onvoorziene omstandigheden van dien aard zijn dat ongewijzigde instandhouding van de voorwaarden naar maatstaven van redelijkheid en billijkheid niet kan worden gevergd.",
+        "en": "PASS if the answer correctly identifies the statutory standard under Article 5:97 BW for modifying long-lease conditions: there must be unforeseen circumstances of such a nature that unchanged continuation of the conditions cannot be required according to standards of reasonableness and fairness."
+      }
+    },
+    {
+      "id": "S-004",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord uitlegt dat de grote terughoudendheid die art. 5:97 BW en de wetsgeschiedenis voorschrijven, leidt tot een nog beperktere toepassing van de beperkende werking dan de reeds strenge algemene maatstaf voor onvoorziene omstandigheden van art. 6:258 BW, omdat partijen bij erfpacht worden geacht bij de vestiging van het langdurige recht rekening te hebben gehouden met toekomstige veranderingen in omstandigheden.",
+        "en": "PASS if the answer explains that the great restraint prescribed by Article 5:97 BW and its legislative history makes the restrictive-effect route even narrower than the already strict general unforeseen-circumstances standard in Article 6:258 BW, because parties establishing a long-term leasehold are assumed to have allowed for future changes in circumstances."
+      }
+    },
+    {
+      "id": "S-005",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord de rechtsgevolgen van de twee routes onderscheidt: op grond van art. 6:248 lid 2 BW blijft de canonherzieningsbepaling slechts buiten toepassing voor zover toepassing onaanvaardbaar zou zijn, terwijl structurele wijziging of beëindiging van de erfpacht op grond van art. 5:97 BW plaatsvindt door een constitutief vonnis. Het antwoord mag stellen dat de routes naast elkaar bestaan óf dat art. 5:97 BW exclusief is voor voldoende verstrekkende of complexe voorzieningen, omdat de conclusie van de A-G vermeldt dat deze verhouding omstreden is.",
+        "en": "PASS if the answer distinguishes the legal effects of the two routes: under Article 6:248(2) BW the ground-rent revision clause is inapplicable only to the extent that applying it would be unacceptable, whereas structural modification or termination of the long lease under Article 5:97 BW occurs through a constitutive judgment. The answer may state either that the routes coexist or that Article 5:97 BW is exclusive for sufficiently far-reaching or complex relief, because the source Advocate General's opinion identifies that relationship as contested."
+      }
+    },
+    {
+      "id": "S-017",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord duidelijk maakt dat voor beperking van een erfpacht- of canonbeding via de beperkende werking grote terughoudendheid is vereist, waarbij de strenge maatstaf van art. 5:97 BW doorwerkt.",
+        "en": "PASS if the answer conveys that limiting a long-lease or ground-rent clause through the restrictive effect of reasonableness and fairness requires great restraint, carrying over the strict Article 5:97 BW standard."
+      }
+    },
+    {
+      "id": "S-006",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord ten minste twee van de volgende relevante omstandigheden noemt voor de beoordeling of toepassing van de beperkende werking gerechtvaardigd is: (i) de duidelijkheid en doorgrondbaarheid van de herzieningsbepaling, (ii) de voorzienbaarheid van de financiële gevolgen en (iii) het welbewust en geïnformeerd aangaan van de overeenkomst.",
+        "en": "PASS if the answer identifies at least two of these relevant circumstances: (i) the clarity and transparency of the revision clause, (ii) the foreseeability of its financial consequences, and (iii) deliberate and informed acceptance of the agreement."
+      }
+    },
+    {
+      "id": "S-007",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord art. 5:97 BW behandelt als de lex specialis voor wijziging van erfpachtvoorwaarden.",
+        "en": "PASS if the answer treats Article 5:97 BW as the lex specialis governing modification of long-lease conditions."
+      }
+    },
+    {
+      "id": "S-008",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord de door de erfpachter ingeroepen beperkende werking van redelijkheid en billijkheid grondt op art. 6:248 lid 2 BW.",
+        "en": "PASS if the answer grounds the restrictive effect of reasonableness and fairness invoked by the long leaseholder in Article 6:248(2) BW."
+      }
+    },
+    {
+      "id": "C-011",
+      "type": "citation",
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord art. 5:97 BW citeert.",
+        "en": "PASS if the answer cites Article 5:97 BW."
+      },
+      "cited_authority": "art. 5:97 BW"
+    },
+    {
+      "id": "C-012",
+      "type": "citation",
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord art. 6:248 lid 2 BW citeert.",
+        "en": "PASS if the answer cites Article 6:248(2) BW."
+      },
+      "cited_authority": "art. 6:248 lid 2 BW"
+    },
+    {
+      "id": "C-013",
+      "type": "citation",
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord art. 6:258 BW citeert.",
+        "en": "PASS if the answer cites Article 6:258 BW."
+      },
+      "cited_authority": "art. 6:258 BW"
+    },
+    {
+      "id": "C-014",
+      "type": "citation",
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord een vindplaats binnen MvA II of VC II, Parl. Gesch. BW Boek 5, p. 322-326 citeert (bijvoorbeeld p. 322, p. 325 of p. 326) ter onderbouwing van de uitzonderlijk strenge maatstaf van art. 5:97 BW.",
+        "en": "PASS if the answer cites any pinpoint within MvA II or VC II, Parl. Gesch. BW Boek 5, pp. 322-326 (for example p. 322, p. 325 or p. 326) in support of the exceptionally strict standard under Article 5:97 BW."
+      },
+      "cited_authority": "MvA II / VC II, Parl. Gesch. BW Boek 5, pp. 322-326"
+    },
+    {
+      "id": "F-018",
+      "type": "form",
+      "dimensions": [
+        "style",
+        "usability"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord één geconsolideerde conclusie geeft over de vraag of art. 6:248 lid 2 BW een canonherzieningsbepaling kan beperken en die conclusie niet vrijwel identiek herhaalt in een tweede samenvatting of bronnentabel; een eventuele bronnentabel moet een afzonderlijke koppeling tussen autoriteit en rechtsregel toevoegen die niet al in de analyse staat.",
+        "en": "PASS if the answer gives one consolidated conclusion on whether Article 6:248(2) BW can limit a ground-rent revision clause and does not repeat that conclusion in a near-identical second summary or source table; any source table must add a distinct authority-to-proposition mapping not already provided in the analysis."
+      }
+    },
+    {
+      "id": "F-019",
+      "type": "form",
+      "dimensions": [
+        "style",
+        "usability"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als de openingsalinea vóór de uitvoerige behandeling van art. 5:97 BW, art. 6:258 BW en de relevante omstandigheden beknopt de conclusie van het antwoord vermeldt over de vraag of art. 6:248 lid 2 BW een canonherzieningsbepaling kan beperken, met behoud van de mate van terughoudendheid die het antwoord in de analyse hanteert.",
+        "en": "PASS if the opening paragraph concisely states the answer's conclusion on whether Article 6:248(2) BW may limit a ground-rent revision clause before the detailed treatment of Articles 5:97, 6:258 and the relevant circumstances, preserving the degree of restraint used in the answer's analysis."
+      }
+    }
+  ]
+}

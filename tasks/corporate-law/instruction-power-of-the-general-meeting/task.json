@@ -1,0 +1,245 @@
+{
+  "task_id": "corporate-law/instruction-power-of-the-general-meeting",
+  "jurisdiction": "NL",
+  "normative_language": "nl",
+  "task_horizon": "short",
+  "law_as_of": "2026-08-30",
+  "practice_area": {
+    "nl": "Ondernemingsrecht",
+    "en": "Corporate law"
+  },
+  "title": {
+    "nl": "Instructiebevoegdheid algemene vergadering",
+    "en": "Instruction power of the general meeting"
+  },
+  "prompt": {
+    "nl": "Het bestuur van een BV of NV heeft een instructie ontvangen van de algemene vergadering en vraagt de bedrijfsjurist of het daaraan gebonden is. In hoeverre kan de algemene vergadering het bestuur met haar instructies binden?",
+    "en": "The management board of a Dutch private or public limited company has received an instruction from the general meeting and has asked its in-house lawyer whether it is bound by it. To what extent can the general meeting bind the management board through its instructions?"
+  },
+  "criteria": [
+    {
+      "id": "C-001",
+      "type": "citation",
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord art. 2:129 BW of het volledige artikelnummer 2:129/130 BW citeert als bepaling over de bestuurstaak bij de NV.",
+        "en": "PASS if the answer cites Article 2:129 BW or the full reference Articles 2:129/2:130 BW as governing the management board's task in a Dutch public limited company (NV)."
+      },
+      "cited_authority": "art. 2:129/2:130 BW"
+    },
+    {
+      "id": "S-002",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat het bestuur van de NV zijn taak zelfstandig vervult.",
+        "en": "PASS if the answer states that the management board of an NV performs its task independently."
+      }
+    },
+    {
+      "id": "S-015",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat de algemene vergadering het bestuur van de NV niet door middel van instructies kan binden, tenzij de statuten anders bepalen (art. 2:129 lid 4 BW).",
+        "en": "PASS if the answer states that the general meeting cannot bind the management board of an NV through instructions unless the articles of association provide otherwise (Article 2:129(4) BW)."
+      }
+    },
+    {
+      "id": "C-003",
+      "type": "citation",
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord art. 2:239 lid 4 BW citeert als de bepaling die de instructiebevoegdheid bij de BV regelt.",
+        "en": "PASS if the answer cites Article 2:239(4) BW as the provision governing instruction power in a Dutch private limited company (BV)."
+      },
+      "cited_authority": "art. 2:239 lid 4 BW"
+    },
+    {
+      "id": "S-004",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat de statuten van een BV kunnen voorzien in een instructiebevoegdheid van de algemene vergadering.",
+        "en": "PASS if the answer states that a BV's articles of association may grant the general meeting power to issue instructions."
+      }
+    },
+    {
+      "id": "S-016",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat wanneer de statuten van een BV voorzien in een instructiebevoegdheid van de algemene vergadering, het bestuur die aanwijzingen moet opvolgen tenzij zij in strijd zijn met het belang van de vennootschap en de met haar verbonden onderneming.",
+        "en": "PASS if the answer states that, where a BV's articles grant the general meeting instruction power, the management board must follow those instructions unless they conflict with the interests of the company and its affiliated enterprise."
+      }
+    },
+    {
+      "id": "S-005",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord het Forumbank-arrest (HR 21 januari 1955, NJ 1959/43) citeert aan de hand van de naam, datum of NJ-vindplaats.",
+        "en": "PASS if the answer cites Forumbank (HR 21 January 1955, NJ 1959/43) by name, date or NJ citation."
+      }
+    },
+    {
+      "id": "S-006",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat de Hoge Raad in Forumbank heeft bevestigd dat het bestuur een eigen, zelfstandige verantwoordelijkheid draagt.",
+        "en": "PASS if the answer states that the Supreme Court confirmed in Forumbank that the management board bears its own independent responsibility."
+      }
+    },
+    {
+      "id": "S-017",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat de Hoge Raad in Forumbank heeft bevestigd dat de algemene vergadering het bestuur niet zonder meer terzijde kan schuiven in aangelegenheden die tot de bestuurstaak behoren.",
+        "en": "PASS if the answer states that the Supreme Court confirmed in Forumbank that the general meeting cannot simply overrule the management board on matters falling within the board's task."
+      }
+    },
+    {
+      "id": "S-007",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord het arrest Boskalis/Fugro (HR 20 april 2018, ECLI:NL:HR:2018:652) citeert aan de hand van de naam, ECLI of NJ-vindplaats.",
+        "en": "PASS if the answer cites Boskalis/Fugro (HR 20 April 2018, ECLI:NL:HR:2018:652) by name, ECLI or NJ citation."
+      }
+    },
+    {
+      "id": "S-008",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat in Boskalis/Fugro is gepreciseerd dat de algemene vergadering haar opvattingen tot uitdrukking kan brengen door uitoefening van de haar in de wet en de statuten toegekende rechten (Boskalis/Fugro, HR 20 april 2018, ECLI:NL:HR:2018:652, r.o. 3.3.7; vermelding van het nummer van de rechtsoverweging is niet vereist).",
+        "en": "PASS if the answer states that Boskalis/Fugro clarified that the general meeting may express its views by exercising the rights conferred on it by law and the articles of association (Boskalis/Fugro, HR 20 April 2018, ECLI:NL:HR:2018:652, para. 3.3.7; naming the paragraph number is not required)."
+      }
+    },
+    {
+      "id": "S-021",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat de aandeelhouders en certificaathouders de vennootschap niet ertoe kunnen verplichten een onderwerp dat een aangelegenheid is van het bestuur ter stemming op te nemen in de agenda van de algemene vergadering (Boskalis/Fugro, HR 20 april 2018, ECLI:NL:HR:2018:652, r.o. 3.3.7; vermelding van het nummer van de rechtsoverweging is niet vereist).",
+        "en": "PASS if the answer states that shareholders and depositary receipt holders cannot compel the company to place a matter falling within the management board's remit on the agenda of the general meeting for a vote (Boskalis/Fugro, HR 20 April 2018, ECLI:NL:HR:2018:652, para. 3.3.7; naming the paragraph number is not required)."
+      }
+    },
+    {
+      "id": "S-018",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat in Boskalis/Fugro is gepreciseerd dat het bepalen van het beleid en de strategie van een vennootschap en de met haar verbonden onderneming in beginsel een aangelegenheid van het bestuur is (Boskalis/Fugro, HR 20 april 2018, ECLI:NL:HR:2018:652, r.o. 3.3.6; vermelding van het nummer van de rechtsoverweging is niet vereist).",
+        "en": "PASS if the answer states that Boskalis/Fugro clarified that determining the policy and strategy of a company and its affiliated enterprise is in principle a matter for the management board (Boskalis/Fugro, HR 20 April 2018, ECLI:NL:HR:2018:652, para. 3.3.6; naming the paragraph number is not required)."
+      }
+    },
+    {
+      "id": "C-009",
+      "type": "citation",
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord art. 2:107 lid 1 BW (NV) of art. 2:217 lid 1 BW (BV) citeert of anderszins inhoudelijk bespreekt dat de algemene vergadering alle bevoegdheid toekomt die niet door de wet of de statuten aan het bestuur of anderen is toegekend.",
+        "en": "PASS if the answer cites Article 2:107(1) BW (NV) or Article 2:217(1) BW (BV), or otherwise substantively addresses that the general meeting holds all powers not conferred by law or the articles on the management board or others."
+      },
+      "cited_authority": "art. 2:107 lid 1 BW (NV) or art. 2:217 lid 1 BW (BV)"
+    },
+    {
+      "id": "C-010",
+      "type": "citation",
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord art. 2:114a BW citeert of anderszins inhoudelijk ingaat op het recht van de algemene vergadering om onderwerpen te agenderen.",
+        "en": "PASS if the answer cites Article 2:114a BW or otherwise substantively addresses the general meeting's right to place subjects on the agenda."
+      },
+      "cited_authority": "art. 2:114a BW"
+    },
+    {
+      "id": "S-013",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord onderscheid maakt tussen de regeling voor de NV (art. 2:129 lid 4 BW, met als uitgangspunt zelfstandige taakvervulling) en de regeling voor de BV (art. 2:239 lid 4 BW, genuanceerder, met een uitdrukkelijke instructiebevoegdheid als mogelijkheid).",
+        "en": "PASS if the answer distinguishes the NV regime (Article 2:129(4) BW, whose starting point is independent performance of the board's task) from the BV regime (Article 2:239(4) BW, more nuanced, permitting an express instruction power)."
+      }
+    },
+    {
+      "id": "S-022",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord juridisch bindende instructies onderscheidt van aandeelhoudersdruk, agenderingsrechten en andere niet-bindende invloed en uitlegt dat deze laatste vormen van invloed het bestuur niet op zichzelf juridisch binden.",
+        "en": "PASS if the answer distinguishes legally binding instructions from shareholder pressure, agenda rights and other non-binding influence and explains that those other forms of influence do not by themselves legally bind the management board."
+      }
+    },
+    {
+      "id": "F-019",
+      "type": "form",
+      "dimensions": [
+        "style",
+        "usability"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord de posities bij de NV en BV afzonderlijk herkenbaar behandelt en de bespreking van juridisch bindende instructies afzonderlijk presenteert van aandeelhoudersdruk, agenderingsrechten of andere niet-bindende invloed, zodat de lezer deze categorieën eenvoudig kan vergelijken.",
+        "en": "PASS if the answer treats the NV and BV positions separately and identifiably and presents its discussion of legally binding instructions separately from shareholder pressure, agenda rights or other non-binding influence, so the reader can compare those categories easily."
+      }
+    },
+    {
+      "id": "F-020",
+      "type": "form",
+      "dimensions": [
+        "style",
+        "usability"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als iedere wettelijke bepaling en aangehaalde uitspraak wordt geplaatst bij de specifieke stelling die zij ondersteunt, zoals wettelijke instructiebevoegdheid, bestuursautonomie of niet-bindende invloed van aandeelhouders, en niet uitsluitend in een gezamenlijke bronnenlijst voorkomt.",
+        "en": "PASS if each statutory provision and cited decision is placed with the particular proposition it supports, such as statutory instruction power, board autonomy or non-binding shareholder influence, rather than appearing only in a collective source list."
+      }
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "task_id": "employment-law/inappropriate-conduct-in-the-workplace",
+  "jurisdiction": "NL",
+  "normative_language": "nl",
+  "task_horizon": "short",
+  "law_as_of": "2026-08-30",
+  "practice_area": {
+    "nl": "Arbeidsrecht",
+    "en": "Employment law"
+  },
+  "title": {
+    "nl": "Grensoverschrijdend gedrag op de werkvloer",
+    "en": "Inappropriate conduct in the workplace"
+  },
+  "prompt": {
+    "nl": "HR heeft de juridische afdeling gevraagd de positie te beoordelen van een werknemer die op staande voet is ontslagen wegens grensoverschrijdend gedrag tegenover een collega. De werkgever weigert de transitievergoeding te betalen met een beroep op artikel 7:673 lid 7 BW en stelt dat de intimidatie ernstig verwijtbaar handelen of nalaten oplevert. Speelt het al dan niet schenden van de zorgplicht door de werkgever mee bij het recht van de werknemer op een transitievergoeding?",
+    "en": "HR has asked the legal team to assess the position of an employee who was summarily dismissed for inappropriate conduct toward a colleague. The employer refuses to pay the statutory transition payment under Article 7:673(7) BW, arguing that the intimidation constitutes seriously culpable conduct or omission. Does whether the employer breached its duty of care affect the employee's entitlement to a transition payment?"
+  },
+  "criteria": [
+    {
+      "id": "C-001",
+      "type": "citation",
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord art. 7:673 lid 1 BW citeert als grondslag voor het recht op een transitievergoeding.",
+        "en": "PASS if the answer cites Article 7:673(1) BW as the basis for the right to a transition payment."
+      },
+      "cited_authority": "art. 7:673 lid 1 BW"
+    },
+    {
+      "id": "S-002",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat een werknemer bij beëindiging van de arbeidsovereenkomst door de werkgever in beginsel recht heeft op een transitievergoeding.",
+        "en": "PASS if the answer states that an employee is in principle entitled to a transition payment when the employer terminates the employment agreement."
+      }
+    },
+    {
+      "id": "C-003",
+      "type": "citation",
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord art. 7:673 lid 7 sub c BW citeert als uitzondering op het recht op transitievergoeding bij ernstig verwijtbaar handelen of nalaten van de werknemer.",
+        "en": "PASS if the answer cites Article 7:673(7)(c) BW as the exception to the transition payment for seriously culpable conduct or omission by the employee."
+      },
+      "cited_authority": "art. 7:673 lid 7 sub c BW"
+    },
+    {
+      "id": "S-004",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord uitlegt dat de transitievergoeding niet verschuldigd is wanneer het eindigen van de arbeidsovereenkomst het gevolg is van ernstig verwijtbaar handelen of nalaten van de werknemer.",
+        "en": "PASS if the answer explains that no transition payment is due where termination of the employment agreement results from seriously culpable conduct or omission by the employee."
+      }
+    },
+    {
+      "id": "S-005",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord onderscheid maakt tussen enerzijds een dringende reden (art. 7:677 lid 1 jo. 7:678 BW) of verwijtbaar handelen (art. 7:669 lid 3 sub e BW) en anderzijds ernstig verwijtbaar handelen in de zin van art. 7:673 lid 7 sub c BW, en duidelijk maakt dat deze kwalificaties niet automatisch samenvallen. Het antwoord weegt alle omstandigheden van het geval bij de beoordeling of de uitzonderingsgrond van art. 7:673 lid 7, aanhef en onder c, BW van toepassing is dan wel niet opgaat. Die beoordeling verschilt van de beoordeling of sprake is van een dringende reden voor ontslag op staande voet, waarbij eveneens alle omstandigheden van belang kunnen zijn (vgl. HR 12 februari 1999, ECLI:NL:HR:1999:ZC2849).",
+        "en": "PASS if the answer distinguishes a compelling reason (Articles 7:677(1) and 7:678 BW) or culpable conduct (Article 7:669(3)(e) BW) from seriously culpable conduct within the meaning of Article 7:673(7)(c) BW, making clear that these classifications do not automatically coincide. It weighs all circumstances of the case in assessing whether the exception ground of Article 7:673(7), opening words and under (c), BW applies or fails. That assessment differs from the assessment whether there is a compelling reason for summary dismissal, in which all circumstances may likewise be relevant (cf. HR 12 February 1999, ECLI:NL:HR:1999:ZC2849)."
+      }
+    },
+    {
+      "id": "S-006",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord de verschijningsvorm — aard, ernst of concrete uitingsvorm — van het grensoverschrijdende gedrag noemt als relevante factor bij de beoordeling of sprake is van ernstig verwijtbaar handelen.",
+        "en": "PASS if the answer identifies the manifestation — nature, seriousness or concrete form — of the inappropriate conduct as relevant to whether the conduct was seriously culpable."
+      }
+    },
+    {
+      "id": "S-007",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord de rol van de intentie en/of ervaring van de werknemer noemt als factor die wordt meegewogen bij de beoordeling van ernstig verwijtbaar handelen.",
+        "en": "PASS if the answer identifies the employee's intention and/or experience as a factor in assessing serious culpability."
+      }
+    },
+    {
+      "id": "S-008",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord uitlegt dat het kenbaarheidsvereiste — of voor de werknemer duidelijk was dat het gedrag niet werd getolereerd — meespeelt bij de kwalificatie als ernstig verwijtbaar handelen.",
+        "en": "PASS if the answer explains that recognisability — whether the employee knew that the conduct would not be tolerated — affects classification as seriously culpable conduct."
+      }
+    },
+    {
+      "id": "S-017",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord uitlegt dat het kenbaarheidsvereiste — of voor de werknemer duidelijk was dat het gedrag niet werd getolereerd — meespeelt bij het al dan niet toekennen van een transitievergoeding.",
+        "en": "PASS if the answer explains that recognisability — whether the employee knew that the conduct would not be tolerated — affects whether a transition payment is awarded."
+      }
+    },
+    {
+      "id": "S-009",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord de zorgplicht van de werkgever, waaronder het scheppen van duidelijke kaders, beleid en begeleiding, noemt als factor bij de beoordeling of het handelen van de werknemer als ernstig verwijtbaar kan worden aangemerkt.",
+        "en": "PASS if the answer identifies the employer's duty of care, including clear frameworks, policy and guidance, as relevant to whether the employee's conduct was seriously culpable."
+      }
+    },
+    {
+      "id": "C-010",
+      "type": "citation",
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord HR 24 juni 2022 (ECLI:NL:HR:2022:950) citeert aan de hand van de ECLI, datum of een andere herkenbare vindplaats.",
+        "en": "PASS if the answer cites HR 24 June 2022 (ECLI:NL:HR:2022:950) by ECLI, date or another recognisable citation."
+      },
+      "cited_authority": "HR 24 juni 2022 (ECLI:NL:HR:2022:950)"
+    },
+    {
+      "id": "S-011",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord inhoudelijk ingaat op de regel uit HR 24 juni 2022 dat voor de kwalificatie 'ernstig verwijtbaar' relevant is of de werkgever duidelijke kaders heeft geschapen.",
+        "en": "PASS if the answer substantively applies the rule from HR 24 June 2022 that whether the employer created clear frameworks is relevant to the classification of conduct as seriously culpable."
+      }
+    },
+    {
+      "id": "S-018",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord inhoudelijk ingaat op de regel uit HR 24 juni 2022 dat voor de kwalificatie 'ernstig verwijtbaar' relevant is of de werkgever de werknemer voldoende heeft begeleid.",
+        "en": "PASS if the answer substantively applies the rule from HR 24 June 2022 that whether the employer adequately guided the employee is relevant to the classification of conduct as seriously culpable."
+      }
+    },
+    {
+      "id": "C-012",
+      "type": "citation",
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord ECLI:NL:GHDHA:2023:2332 (Hof Den Haag 5 december 2023) citeert of anderszins inhoudelijk ingaat op hogere rechtspraak die de lijn van HR 2022:950 bevestigt of uitwerkt in de context van zorgplicht en kenbaarheid.",
+        "en": "PASS if the answer cites ECLI:NL:GHDHA:2023:2332 (The Hague Court of Appeal, 5 December 2023) or otherwise substantively discusses appellate authority confirming or developing HR 2022:950 in the context of the duty of care and recognisability."
+      },
+      "cited_authority": "ECLI:NL:GHDHA:2023:2332"
+    },
+    {
+      "id": "C-013",
+      "type": "citation",
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord ECLI:NL:RBLIM:2023:6138 (Rb. Limburg 2023) of ECLI:NL:RBMNE:2020:6073 (Rb. Midden-Nederland 2020) citeert, of anderszins inhoudelijk ingaat op lagere rechtspraak over de koppeling tussen schending van de zorgplicht, kenbaarheid en het recht op transitievergoeding bij grensoverschrijdend gedrag.",
+        "en": "PASS if the answer cites ECLI:NL:RBLIM:2023:6138 (Limburg District Court 2023) or ECLI:NL:RBMNE:2020:6073 (Central Netherlands District Court 2020), or otherwise substantively discusses lower-court authority linking breach of the duty of care, recognisability and the transition payment in cases of inappropriate conduct."
+      },
+      "cited_authority": "ECLI:NL:RBLIM:2023:6138"
+    },
+    {
+      "id": "S-014",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord uitlegt dat de schending van de zorgplicht voldoende substantieel moet zijn om mee te wegen bij het ontzeggen van de transitievergoeding.",
+        "en": "PASS if the answer explains that the breach of the duty of care must be sufficiently substantial to affect denial of the transition payment."
+      }
+    },
+    {
+      "id": "S-019",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord uitlegt dat voor het ontzeggen van de transitievergoeding doorgaans een koppeling wordt gemaakt met het kenbaarheidsvereiste, namelijk of de werkgever voldoende heeft gedaan om de normen duidelijk te maken.",
+        "en": "PASS if the answer explains that denial of the transition payment is commonly linked to recognisability, namely whether the employer did enough to make the applicable standards clear."
+      }
+    },
+    {
+      "id": "S-015",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord erkent dat de lijn in de rechtspraak over de rol van de zorgplicht van de werkgever bij de kwalificatie 'ernstig verwijtbaar' niet onomstreden is, nuancering behoeft of aanleiding geeft tot kritiek op de mate waarin het tekortschieten van de werkgever het verwijtbare gedrag van de werknemer kan relativeren.",
+        "en": "PASS if the answer acknowledges that the case-law approach to the employer's duty of care in classifying seriously culpable conduct is contested, requires nuance or has attracted criticism concerning the extent to which the employer's failings may mitigate the employee's culpable conduct."
+      }
+    },
+    {
+      "id": "S-016",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord concludeert dat de naleving of niet-naleving van de zorgplicht door de werkgever meespeelt bij de beoordeling of de werknemer ernstig verwijtbaar heeft gehandeld.",
+        "en": "PASS if the answer concludes that the employer's compliance or non-compliance with its duty of care affects whether the employee acted in a seriously culpable manner."
+      }
+    },
+    {
+      "id": "S-020",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord concludeert dat de naleving of niet-naleving van de zorgplicht door de werkgever meespeelt bij het al dan niet toekennen van een transitievergoeding.",
+        "en": "PASS if the answer concludes that the employer's compliance or non-compliance with its duty of care affects whether a transition payment is awarded."
+      }
+    },
+    {
+      "id": "F-021",
+      "type": "form",
+      "dimensions": [
+        "style",
+        "usability"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als de openingsalinea vóór de uitvoerige behandeling van het ontslag en de ernstige verwijtbaarheid rechtstreeks de conclusie van het antwoord vermeldt over de vraag of en hoe de naleving van de zorgplicht door de werkgever het recht van de werknemer op een transitievergoeding beïnvloedt.",
+        "en": "PASS if the opening paragraph directly states the answer's conclusion on whether and how the employer's compliance with its duty of care affects the employee's entitlement to a transition payment before the detailed treatment of dismissal and serious culpability."
+      }
+    },
+    {
+      "id": "F-022",
+      "type": "form",
+      "dimensions": [
+        "usability"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord de zorgplicht van de werkgever en de betekenis daarvan voor de transitievergoeding als hoofdlijn van de analyse aanhoudt; bredere kaders over gedrag op de werkvloer of afzonderlijke kwalificaties mogen alleen worden opgenomen als zij die hoofdlijn ondersteunen en niet verhullen.",
+        "en": "PASS if the answer keeps the employer's duty of care and its relevance to the transition payment as the primary line of analysis; broader workplace-conduct frameworks or separate classifications may be included only where they support that line and do not obscure it."
+      }
+    }
+  ]
+}

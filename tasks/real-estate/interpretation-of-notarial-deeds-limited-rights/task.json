@@ -1,0 +1,209 @@
+{
+  "task_id": "real-estate/interpretation-of-notarial-deeds-limited-rights",
+  "jurisdiction": "NL",
+  "normative_language": "nl",
+  "task_horizon": "short",
+  "law_as_of": "2026-08-30",
+  "practice_area": {
+    "nl": "Vastgoedrecht",
+    "en": "Real estate"
+  },
+  "title": {
+    "nl": "Uitleg notariële akten bij vestiging beperkte rechten op registergoederen",
+    "en": "Interpretation of notarial deeds establishing limited rights in registered property"
+  },
+  "prompt": {
+    "nl": "In een geschil staat de omvang centraal van beperkte rechten op registergoederen die in notariële akten zijn gevestigd. Welke maatstaf geldt voor de uitleg van de akten, en in hoeverre mag daarbij acht worden geslagen op de feitelijke situatie ter plaatse, de plaatselijke adresaanduiding ten tijde van het verlijden en de onderlinge samenhang tussen op dezelfde dag verleden akten?",
+    "en": "A dispute concerns the extent of limited rights in registered property established by notarial deeds. What standard governs interpretation of the deeds, and to what extent may it take account of the factual situation on site, the local address designation at the time of execution, and the relationship between deeds executed on the same day?"
+  },
+  "criteria": [
+    {
+      "id": "S-001",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat voor de uitleg van notariële akten waarbij beperkte rechten op registergoederen worden gevestigd een objectieve maatstaf geldt: de partijbedoeling moet worden afgeleid uit de in de akte gebezigde bewoordingen, uitgelegd naar objectieve maatstaven in het licht van de gehele inhoud van de akte.",
+        "en": "PASS if the answer states that notarial deeds establishing limited rights in registered property are interpreted objectively: the parties' intention must be derived from the wording used in the deed, interpreted according to objective criteria in light of the deed as a whole."
+      }
+    },
+    {
+      "id": "S-002",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord uitlegt waarom de objectieve maatstaf geldt: derden moeten kunnen afgaan op wat in een in de openbare registers ingeschreven akte staat over de vestiging van een beperkt recht; de ratio ligt dus in het publiciteitsstelsel voor registergoederen.",
+        "en": "PASS if the answer explains that the objective standard applies because third parties must be able to rely on what a deed recorded in the public registers states about the establishment of a limited right; the rationale lies in the publicity system for registered property."
+      }
+    },
+    {
+      "id": "S-003",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord onderkent dat bij de uitleg van de omschrijving in de akte rekening mag worden gehouden met de plaatselijke feitelijke situatie ten tijde van het verlijden.",
+        "en": "PASS if the answer recognises that the factual situation at the location at the time of execution may be considered when interpreting the description in the deed."
+      }
+    },
+    {
+      "id": "S-004",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat omstandigheden van na de datum van het verlijden in beginsel geen rol spelen.",
+        "en": "PASS if the answer states that circumstances arising after the date of execution play no role in principle."
+      }
+    },
+    {
+      "id": "S-011",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord specifiek vermeldt dat een latere hernummering van een adres een nadien ontstane omstandigheid is waaraan geen gewicht mag worden toegekend.",
+        "en": "PASS if the answer specifically states that a later renumbering of an address is a subsequent circumstance to which no weight may be given."
+      }
+    },
+    {
+      "id": "S-012",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat de akte moet worden uitgelegd aan de hand van de officiële nummering zoals die ten tijde van het verlijden gold.",
+        "en": "PASS if the answer states that the deed must be interpreted according to the official numbering in effect at the time of execution."
+      }
+    },
+    {
+      "id": "S-005",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord uitlegt dat, wanneer op dezelfde dag meerdere akten betreffende deels hetzelfde registergoed zijn verleden, iedere akte in beginsel zelfstandig wordt uitgelegd op basis van de daarin opgenomen omschrijving.",
+        "en": "PASS if the answer explains that, when multiple deeds concerning partly the same immovable property are executed on the same day, each deed is in principle interpreted independently on the basis of its own description."
+      }
+    },
+    {
+      "id": "S-006",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord vermeldt dat de rechter de omschrijvingen in op dezelfde dag verleden akten mag vergelijken, maar uitsluitend om na te gaan of de zelfstandige uitleggingen niet met elkaar in strijd zijn.",
+        "en": "PASS if the answer states that the court may compare the descriptions in deeds executed on the same day, but only to verify that the independent interpretations are not mutually contradictory."
+      }
+    },
+    {
+      "id": "S-007",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord concludeert, of met de conclusie verenigbaar is, dat geen rangorderegel hoeft te worden toegepast wanneer zelfstandige uitleg van iedere akte — naar objectieve maatstaven en met inachtneming van de feitelijke omschrijvingen en de situatie ten tijde van het verlijden — tot niet-tegenstrijdige uitkomsten leidt.",
+        "en": "PASS if the answer concludes, or is consistent with the conclusion, that no priority rule is required when independent interpretation of each deed according to objective criteria, the factual descriptions and the situation at execution produces non-conflicting results."
+      }
+    },
+    {
+      "id": "S-013",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord concludeert, of met de conclusie verenigbaar is, dat geen verzoenende uitleg nodig is wanneer zelfstandige uitleg van iedere akte — naar objectieve maatstaven en met inachtneming van de feitelijke omschrijvingen en de situatie ten tijde van het verlijden — tot niet-tegenstrijdige uitkomsten leidt.",
+        "en": "PASS if the answer concludes, or is consistent with the conclusion, that no harmonising interpretation is required when independent interpretation of each deed according to objective criteria, the factual descriptions and the situation at execution produces non-conflicting results."
+      }
+    },
+    {
+      "id": "S-014",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord concludeert, of verenigbaar is met de conclusie, dat wanneer de zelfstandige uitleg van iedere akte (aan de hand van objectieve maatstaven, de feitelijke omschrijvingen en de situatie ten tijde van het verlijden) tot niet met elkaar strijdige uitkomsten leidt, het object van ieder beperkt recht wordt bepaald door de zelfstandige uitleg van de desbetreffende akte, met dien verstande dat in de rechtspraak van de Hoge Raad onbeantwoord is gebleven of verzoenende uitleg de uitleg kan beïnvloeden.",
+        "en": "PASS if the answer concludes, or is consistent with the conclusion, that where independent interpretation of each deed (applying objective standards, the factual descriptions and the situation at the time of execution) leads to non-contradictory results, the object of each limited right is determined by the independent interpretation of the relevant deed, while the question whether harmonising interpretation (verzoenende uitleg) may influence that interpretation has not been answered in Supreme Court case law."
+      }
+    },
+    {
+      "id": "C-008",
+      "type": "citation",
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord HR 8 december 2000, ECLI:NL:HR:2000:AA8901 (Eelder Woningbouw / NJ 2001/350) citeert als leidende uitspraak voor de objectieve uitlegmaatstaf bij notariële akten waarbij beperkte rechten op registergoederen worden gevestigd.",
+        "en": "PASS if the answer cites HR 8 December 2000, ECLI:NL:HR:2000:AA8901 (Eelder Woningbouw / NJ 2001/350), as the leading authority for the objective interpretation standard applicable to notarial deeds establishing limited rights in registered property."
+      },
+      "cited_authority": "HR 8 december 2000"
+    },
+    {
+      "id": "S-010",
+      "type": "substance",
+      "dimensions": [
+        "legal_correctness",
+        "legal_judgment"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord ten minste één van de volgende ondersteunende uitspraken inhoudelijk gebruikt voor een onderdeel van de uitlegmaatstaf of de behandeling van op dezelfde dag verleden akten: HR 13 juni 2003 (ECLI:NL:HR:2003:AH9168), HR 22 oktober 2010 (ECLI:NL:HR:2010:BM8933) of HR 1 november 2013 (ECLI:NL:HR:2013:1078, De Prinsenwerf / NJ 2013/522).",
+        "en": "PASS if the answer uses at least one of these supporting authorities substantively for an element of the interpretation standard or the treatment of same-day deeds: HR 13 June 2003 (ECLI:NL:HR:2003:AH9168), HR 22 October 2010 (ECLI:NL:HR:2010:BM8933), or HR 1 November 2013 (ECLI:NL:HR:2013:1078, De Prinsenwerf / NJ 2013/522)."
+      }
+    },
+    {
+      "id": "F-015",
+      "type": "form",
+      "dimensions": [
+        "style",
+        "usability"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als het antwoord de geldende objectieve uitlegmaatstaf afzonderlijk herkenbaar behandelt naast de feitelijke situatie ter plaatse, de adresaanduiding ten tijde van het verlijden en de verhouding tussen de op dezelfde dag verleden akten, zodat de lezer de regel en iedere gevraagde contextfactor kan terugvinden zonder de structuur zelf te reconstrueren.",
+        "en": "PASS if the answer makes the governing objective interpretation standard separately identifiable from its treatment of the factual situation on site, the address designation at execution and the relationship between the same-day deeds, so the reader can locate the rule and each requested contextual factor without reconstructing the structure."
+      }
+    },
+    {
+      "id": "F-016",
+      "type": "form",
+      "dimensions": [
+        "style",
+        "usability"
+      ],
+      "lawyer_validated": true,
+      "pass_criteria": {
+        "nl": "PASS als iedere aangehaalde uitspraak wordt geplaatst bij de uitlegregel of contextfactor die zij ondersteunt; een losstaande lijst van uitspraken of bronnen volstaat op zichzelf niet.",
+        "en": "PASS if each cited decision is placed with the interpretation rule or contextual factor it supports; a stand-alone case list or source list does not by itself satisfy this checkpoint."
+      }
+    }
+  ]
+}

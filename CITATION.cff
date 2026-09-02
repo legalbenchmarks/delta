@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "Dutch Legal AI Benchmark (DELTA)"
+type: dataset
+authors:
+  - name: "Legal Benchmarks"
+    website: "https://www.legalbenchmarks.ai"
+  - name: "Zeno.Law"
+    website: "https://zeno.law"
+version: 1.1.0
+date-released: 2026-08-30
+license: CC-BY-4.0
+repository-code: "https://github.com/legalbenchmarks/delta"
+abstract: >-
+  An open task set for legal research in the law of the Netherlands:
+  15 tasks with 273 binary, lawyer-calibrated grading criteria across 9
+  practice areas. The tasks were selected from a collection of more than 200
+  legal-research assignments reflecting questions encountered in Dutch legal
+  practice. The public questions and assessment criteria were reviewed by
+  practising Dutch lawyers. Legal Benchmarks curates and maintains the public
+  benchmark, with Zeno.Law as Founding Research Partner. Dutch text is
+  normative; English reference translations are included.
+keywords:
+  - legal research
+  - dutch law
+  - netherlands
+  - benchmark
+  - evaluation
+  - legal ai
